@@ -1,0 +1,46 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: Waw6Zha1yrS5xeeX0+Mrwe3j+zw=
+Created-By: 1.0 (Android SignApk)
+
+Name: META-INF/com/google/android/updater-script
+SHA1-Digest: iF1sSUvKQKIWs0ETNeRZjBd2awI=
+
+Name: file_contexts.bin
+SHA1-Digest: 2WtB2vVItK1MDo8ZYdOF7cANAys=
+
+Name: META-INF/com/android/otacert
+SHA1-Digest: QW7yPFUPbhU0tUYKW4i2EdneCnw=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest: gCDVULXAdKkB98N46n5AbAxDQpo=
+
+Name: install/bin/backuptool.sh
+SHA1-Digest: rtkIxOfKzT3m/jAVRFYBfHmqVAA=
+
+Name: META-INF/org/lineageos/releasekey
+SHA1-Digest: UhnUkipc8qCkpgqtgOn+7sh/y88=
+
+Name: system/build.prop
+SHA1-Digest: BiEq2iEBNSQ+YaFb/lxUk5Rjka0=
+
+Name: install/bin/otasigcheck.sh
+SHA1-Digest: nkKxR6DXmZ1C6qNtmOyTaXIB9tI=
+
+Name: system.patch.dat
+SHA1-Digest: 774VWw1Wa8Y+IPKHHCeM6N//yzE=
+
+Name: system.transfer.list
+SHA1-Digest: ddxe1WhRW7HtWFr/guumi8qbRd0=
+
+Name: boot.img
+SHA1-Digest: Hylkn+LuyM+TCUcdY/eQ/TUWhVY=
+
+Name: system.new.dat
+SHA1-Digest: nT21ajma7wGi5gwZxRgkQg7Qqq8=
+
+Name: META-INF/com/android/metadata
+SHA1-Digest: sg6wpvXgRjJaUzmBlGi4LOdxG+g=
+
+Name: install/bin/backuptool.functions
+SHA1-Digest: 3+wPttDxOwqnj2iCNcU0q6jRdkA=
+

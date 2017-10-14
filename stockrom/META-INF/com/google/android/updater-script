@@ -1,0 +1,30 @@
+assert(getprop("ro.product.device") == "a3xelte" || getprop("ro.build.product") == "a3xelte" || getprop("ro.product.device") == "a3xeltexx" || getprop("ro.build.product") == "a3xeltexx" || abort("E3004: This package is for device: a3xelte,a3xeltexx; this device is " + getprop("ro.product.device") + "."););
+ui_print("Target: samsung/lineage_a3xeltexx/a3xeltexx:7.1.2/NJH47F/139a799053:userdebug/test-keys");
+ifelse(is_mounted("/system"), unmount("/system"));
+package_extract_dir("install", "/tmp/install");
+set_metadata_recursive("/tmp/install", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0644);
+set_metadata_recursive("/tmp/install/bin", "uid", 0, "gid", 0, "dmode", 0755, "fmode", 0755);
+mount("ext4", "EMMC", "/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM", "/system", "");
+run_program("/tmp/install/bin/backuptool.sh", "backup");
+unmount("/system");
+if is_mounted("/data") then
+package_extract_file("META-INF/org/lineageos/releasekey", "/tmp/releasekey");
+run_program("/tmp/install/bin/otasigcheck.sh") != "31744" || abort("Can't install this package on top of incompatible data. Please try another package or run a factory reset");
+else
+mount("f2fs", "EMMC", "/dev/block/platform/13540000.dwmmc0/by-name/USERDATA", "/data", "");
+package_extract_file("META-INF/org/lineageos/releasekey", "/tmp/releasekey");
+run_program("/tmp/install/bin/otasigcheck.sh") != "31744" || abort("Can't install this package on top of incompatible data. Please try another package or run a factory reset");
+unmount("/data");
+endif;
+show_progress(0.750000, 0);
+ui_print("Patching system image unconditionally...");
+block_image_update("/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM", package_extract_file("system.transfer.list"), "system.new.dat", "system.patch.dat") ||
+  abort("E1001: Failed to update system image.");
+show_progress(0.020000, 10);
+mount("ext4", "EMMC", "/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM", "/system", "");
+run_program("/tmp/install/bin/backuptool.sh", "restore");
+unmount("/system");
+show_progress(0.050000, 5);
+package_extract_file("boot.img", "/dev/block/platform/13540000.dwmmc0/by-name/BOOT");
+show_progress(0.200000, 10);
+set_progress(1.000000);

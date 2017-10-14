@@ -1,0 +1,5 @@
+ota-required-cache=0
+ota-type=BLOCK
+post-build=samsung/lineage_a3xeltexx/a3xeltexx:7.1.2/NJH47F/139a799053:userdebug/test-keys
+post-timestamp=1507978611
+pre-device=a3xeltexx
