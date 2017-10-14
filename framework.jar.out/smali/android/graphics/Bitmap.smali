@@ -44,7 +44,7 @@
 
 
 # instance fields
-.field private mBuffer:[B
+.field public mBuffer:[B
 
 .field mDensity:I
 

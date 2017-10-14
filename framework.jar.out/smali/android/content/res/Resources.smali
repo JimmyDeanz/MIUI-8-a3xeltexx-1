@@ -212,26 +212,21 @@
     .locals 3
 
     .prologue
-    .line 173
     sget-object v2, Landroid/content/res/Resources;->sSync:Ljava/lang/Object;
 
     monitor-enter v2
 
-    .line 174
     :try_start_0
     sget-object v0, Landroid/content/res/Resources;->mSystem:Landroid/content/res/Resources;
 
-    .line 175
     .local v0, "ret":Landroid/content/res/Resources;
     if-nez v0, :cond_0
 
-    .line 176
-    new-instance v0, Landroid/content/res/Resources;
+    new-instance v0, Landroid/content/res/MiuiResources;
 
     .end local v0    # "ret":Landroid/content/res/Resources;
-    invoke-direct {v0}, Landroid/content/res/Resources;-><init>()V
+    invoke-direct {v0}, Landroid/content/res/MiuiResources;-><init>()V
 
-    .line 177
     .restart local v0    # "ret":Landroid/content/res/Resources;
     sput-object v0, Landroid/content/res/Resources;->mSystem:Landroid/content/res/Resources;
     :try_end_0
