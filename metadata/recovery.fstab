@@ -1,0 +1,13 @@
+/system ext4 /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
+/cache ext4 /dev/block/platform/13540000.dwmmc0/by-name/CACHE
+/data ext4 /dev/block/platform/13540000.dwmmc0/by-name/USERDATA
+/dev/magisk/mirror/system ext4 /dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
+/mnt/knox sdcardfs /data/knox/tmp_sdcard
+/mnt/knox/default/knox-emulated sdcardfs /data/knox/sdcard
+/mnt/knox/read/knox-emulated sdcardfs /data/knox/sdcard
+/mnt/knox/write/knox-emulated sdcardfs /data/knox/sdcard
+/mnt/shell/enc_media sdcardfs /data/knox/secure_fs/enc_media
+/mnt/runtime/default/emulated sdcardfs /data/media
+/storage/emulated sdcardfs /data/media
+/mnt/runtime/read/emulated sdcardfs /data/media
+/mnt/runtime/write/emulated sdcardfs /data/media
