@@ -26,7 +26,7 @@ then :
 mkdir device
 ```
 
-and put my repo on this folder
+and put my repo on the device
  
 ---You are welcome to use my files or help me. But ask me before.---
 
