@@ -5,38 +5,28 @@ Hi,you are welcome to use my files just ask me before
 
 to can build using my work you need to do :
 
-'''bash
+```bash
 mkdir -p ~/bin
-'''
-
-'''bash
 PATH=~/bin:$PATH
-'''
-
-'''bash
 cd ~/bin
-'''
-
-'''bash
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-'''
-
-'''bash
 chmod a+x ~/bin/repo
-'''
+```
 
 sync Miui source 
 
-'''bash 
+```bash 
 repo init -u git://github.com/MiCode/patchrom.git -b marshmallow (-jx)
-'''
+repo sync
+```
+
 then :
 
-'''bash 
+```bash 
 mkdir device
-'''
+```
 
-and put my repo on this folde-r
+and put my repo on this folder
  
 ---You are welcome to use my files or help me. But ask me before.---
 
