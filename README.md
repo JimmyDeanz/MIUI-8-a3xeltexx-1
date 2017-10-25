@@ -1,6 +1,6 @@
 # MIUI-8-a3xeltexx
 <p align="center">
-Hi,you are welcome to use my files just ask me before 
+Hi, you are welcome to use my files just ask me before 
 <p>
 
 to can build using my work you need to do :
