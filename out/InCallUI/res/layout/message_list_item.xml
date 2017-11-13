@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/incoming_message_response_list_item_text_size" android:textColor="@color/incoming_message_response_list_item_text_color" android:gravity="center_vertical" android:id="@id/message_item_tv" android:layout_width="fill_parent" android:layout_height="@dimen/incoming_message_response_list_item_height" style="@miui:style/Widget.ListView.Item.SingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

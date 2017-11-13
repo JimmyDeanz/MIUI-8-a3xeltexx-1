@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.JeejenInCallScreenLayer android:orientation="vertical" android:background="@color/jeejen_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/jeejen_call_card_photo_widget" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/jeejen_call_card_photo_widget" />
+    <include android:id="@id/jeejen_call_card_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jeejen_screen_top_margin" layout="@layout/jeejen_call_card_widget" />
+    <include android:id="@id/jeejen_incall_controls_speaker_widget" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jeejen_screen_top_margin" android:layout_marginEnd="@dimen/jeejen_screen_right_margin" android:layout_alignParentEnd="true" layout="@layout/jeejen_incall_controls_speaker_widget" />
+    <RelativeLayout android:id="@id/jeejen_bottom_buttons_pane" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/jeejen_incall_controls_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/jeejen_incall_controls_widget" />
+        <include android:id="@id/jeejen_incoming_call_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/jeejen_incoming_call_widget" />
+    </RelativeLayout>
+    <View android:background="@drawable/jeejen_round_corner_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.incallui.JeejenInCallScreenLayer>

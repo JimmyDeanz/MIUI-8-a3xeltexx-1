@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/fraud_call_bg" android:paddingLeft="@dimen/fraud_call_title_padding" android:paddingTop="@dimen/fraud_call_margin_bottom" android:paddingRight="@dimen/fraud_call_title_padding" android:paddingBottom="@dimen/fraud_call_margin_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/fraud_call_button_text_size" android:textColor="@color/fraud_call_button_text_color" android:id="@id/fraud_call_answer" android:background="@drawable/fraud_call_answer_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fraud_call_answer" />
+    <Button android:textSize="@dimen/fraud_call_button_text_size" android:textColor="@color/fraud_call_button_text_color" android:id="@id/fraud_call_decline" android:background="@drawable/fraud_call_reject_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fraud_call_button_margin_top" android:text="@string/fraud_call_decline" />
+</LinearLayout>

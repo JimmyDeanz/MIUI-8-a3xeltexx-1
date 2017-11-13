@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">"%s daqiqaga bog'lanish yo'q"</item>
+        <item quantity="one">"%s daqiqaga bog'lanish yo'q"</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">"Telefon %s daqiqaga ushbu rejimda bo'ladi. Internet bog'lanish kerak bo'lgan ilovalarni ishlatib bo'lmaydi. Hozir chiqilsinmi?"</item>
+        <item quantity="one">"Telefon %s daqiqaga ushbu rejimda bo'ladi. Internet bog'lanish kerak bo'lgan ilovalarni ishlatib bo'lmaydi. Hozir chiqilsinmi?"</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">"Favqulod Qaytachaqirish rejimi paytida tanlangan amal mavjud emas. Telefon %s daqiqaga ushbu rejimda bo'ladi. Hozir chiqilsinmi?"</item>
+        <item quantity="one">"Favqulod Qaytachaqirish rejimi paytida tanlangan amal mavjud emas. Telefon %s daqiqaga ushbu rejimda bo'ladi. Hozir chiqilsinmi?"</item>
+    </plurals>
+</resources>

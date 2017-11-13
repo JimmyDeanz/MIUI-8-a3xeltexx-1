@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/mobile_networks"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone"
+  xmlns:miui="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:title="@string/msim_setting_categery_title" android:key="sim_info" />
+    <PreferenceScreen android:title="@string/cdma_lte_data_service" android:key="cdma_lte_data_service_key" />
+    <PreferenceCategory android:title="@string/msim_general_setting" android:key="sim_general">
+        <CheckBoxPreference android:persistent="false" android:title="@string/data_enabled" android:key="button_data_enabled_key" android:summary="@string/data_enable_summary" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/volte_switch_title" android:key="enhanced_4g_lte" android:summary="@string/volte_switch_summary" />
+        <PreferenceScreen android:title="@string/preference_data_usage_title" android:key="pref_key_data_usage" android:summary="@string/preference_data_usage_summary">
+            <intent android:targetPackage="com.miui.securitycenter" android:action="miui.intent.action.NETWORKASSISTANT_SETTINGS" android:targetClass="com.miui.networkassistant.ui.base.UniversalFragmentActivity" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/international_roaming_setting" android:key="button_roaming_key" android:summary="@string/roaming_disable">
+            <intent android:targetPackage="com.miui.securitycenter" android:targetClass="com.miui.networkassistant.ui.activity.InternationalRoamingSettingActivity" />
+        </PreferenceScreen>
+        <CheckBoxPreference android:persistent="false" android:title="@string/always_enable_mms" android:key="button_mms_enabled_key" android:summary="@string/always_enable_mms_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/msim_default_setting" android:key="sim_default">
+        <com.android.phone.settings.MultiSimListPreference android:layout="@layout/msim_list_preference_layout" android:title="@string/msim_pref_title_voice" android:key="default_voice_key" android:defaultValue="-1" />
+        <com.android.phone.settings.MultiSimListPreference android:layout="@layout/msim_list_preference_layout" android:title="@string/msim_pref_title_data" android:key="default_data_key" android:defaultValue="0" miui:hasDoNotSet="false" />
+    </PreferenceCategory>
+    <PreferenceScreen android:persistent="false" android:title="@string/uplmn_list_setting_title" android:key="button_uplmn_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.settings.UserPLMNListPreference" />
+    </PreferenceScreen>
+</PreferenceScreen>

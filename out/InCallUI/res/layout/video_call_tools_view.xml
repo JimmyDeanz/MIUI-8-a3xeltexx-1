@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/inVideoCallToolPanelContent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/inCallToolsPanelTop" android:visibility="gone" android:layout_marginTop="@dimen/call_tools_top_panel_margin_top" android:layout_marginBottom="@dimen/call_tools_top_panel_margin_bottom" style="@style/Miui.TableRow">
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/rcsMessage" android:text="@string/onscreen_rcs_text" android:drawableTop="@drawable/ic_in_call_touch_rcs_message" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/notesButton" android:visibility="visible" android:text="@string/onscreen_note_calls_text" android:drawableTop="@drawable/ic_in_call_touch_notes" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/inCallToolsPanelBottom" android:layout_marginBottom="@dimen/video_call_tools_bottom_panel_margin_bottom" style="@style/Miui.TableRow">
+        <LinearLayout style="@style/Miui.TableColumn">
+            <ToggleButton android:id="@id/videoMuteButton" android:checked="false" android:textOn="@string/onscreen_mute_text" android:textOff="@string/onscreen_mute_text" android:drawableTop="@drawable/ic_in_call_touch_mute" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/switchCameraButton" android:text="@string/onscreen_switch_camera" android:drawableTop="@drawable/ic_in_call_touch_switch_camera" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/switchToVoiceButton" android:text="@string/onscreen_change_to_voice" android:drawableTop="@drawable/ic_in_call_touch_change_to_voice" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <ToggleButton android:id="@id/pauseVideoButton" android:checked="false" android:textOn="@string/onscreen_close_preview_camera" android:textOff="@string/onscreen_close_preview_camera" android:drawableTop="@drawable/ic_in_call_touch_pause_video" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

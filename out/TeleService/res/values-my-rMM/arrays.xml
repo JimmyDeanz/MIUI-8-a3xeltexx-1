@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>တစ်ကမ္ဘာလုံးဆိုင်ရာ</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_world_mode">
+        <item>၁၀</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>ကွန်ရက် မူလသတ်မှတ်</item>
+        <item>နံပါတ်ဖွက်ပါ</item>
+        <item>နံပါတ်ပြပါ</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA, LTE, CDMA, EvDo GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM/WCDMA, CDMA and EvDo</item>
+        <item>TD-SCDMA, GSM/WCDMA and LTE</item>
+        <item>TD-SCDMA, WCDMA and LTE</item>
+        <item>TD-SCDMA, GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM and LTE</item>
+        <item>TD-SCDMA and GSM</item>
+        <item>TD-SCDMA and LTE</item>
+        <item>TD-SCDMA and WCDMA</item>
+        <item>TD-SCDMA သီးသန့်</item>
+        <item>LTE/WCDMA</item>
+        <item>LTE မျှသာ</item>
+        <item>LTE/GSM/CDMA အော်တို (PRL)</item>
+        <item>LTE/GSM အော်တို (PRL)</item>
+        <item>LTE/CDMA အော်တို (PRL)</item>
+        <item>GSM/CDMA အော်တို (PRL)</item>
+        <item>EvDo သီးသန့်</item>
+        <item>CDMA သီးသန့်</item>
+        <item>CDMA အော်တို(PRL)</item>
+        <item>GSM အော်တို (PRL)</item>
+        <item>WCDMA သီးသန့်</item>
+        <item>GSM သီးသန့်</item>
+        <item>WCDMA နှစ်သက်</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>အင်္ဂလိပ်</item>
+        <item>ပြင်သစ်</item>
+        <item>စပိန်</item>
+        <item>ဂျပန်</item>
+        <item>ကိုရီးယား</item>
+        <item>တရုတ်</item>
+        <item>ဟီဘရူး</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>၁</item>
+        <item>၂</item>
+        <item>၃</item>
+        <item>၄</item>
+        <item>၅</item>
+        <item>၆</item>
+        <item>၇</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>အိမ်သီးသန့်</item>
+        <item>အလိုအလျောက်</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>၀</item>
+        <item>၁</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY ပိတ်</item>
+        <item>TTY အပြည့်</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>ပုံမှန်</item>
+        <item>ရှည်သော</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>ပိတ်ရန်</item>
+        <item>ရွန်းမင်း ခေါ်ဆိုမှုပိတ်ပင်ခြင်း</item>
+        <item>နိုင်ငံတကာ ခေါ်ဆိုမှုပိတ်ပင်ခြင်း</item>
+        <item>အထွက်ခေါ်ဆိုမှုပိတ်ပင်ခြင်း</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>ပိတ်ရန်</item>
+        <item>ရွန်းမင်း</item>
+        <item>အားလုံး</item>
+    </string-array>
+    <string-array name="call_barring_incoming_values">
+        <item>-2</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+</resources>

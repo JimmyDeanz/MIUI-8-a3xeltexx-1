@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/video_call_background" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextureView android:layout_gravity="center" android:id="@id/incomingVideo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.incallui.view.VoLTEVideoPreview android:layout_gravity="center" android:id="@id/previewVideo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.incallui.ZoomControlBar android:layout_gravity="bottom|center" android:id="@id/zoom_control" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/video_call_zoom_control_height" />
+</FrameLayout>

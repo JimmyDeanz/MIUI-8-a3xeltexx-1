@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/callButtonFragment" android:paddingBottom="@dimen/call_button_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/endButton" android:visibility="invisible" android:layout_centerHorizontal="true" android:contentDescription="@string/description_image_button_hangup" style="@style/Miui.Button.Hangup" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/audioButtonLayout" android:visibility="invisible" android:layout_width="@dimen/call_button_text_width" android:layout_height="@dimen/call_button_height" android:layout_marginRight="@dimen/call_button_margin" android:layout_toLeftOf="@id/endButton">
+        <TextView android:textColor="@color/call_button_text_color_normal" android:id="@id/audioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/Miui.Button.Text" />
+        <ImageView android:id="@id/audioImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/call_button_height" android:layout_marginLeft="@dimen/call_button_indicator_margin_left" android:src="@drawable/call_button_bluetooth" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/toolsButtonLayout" android:visibility="invisible" android:layout_width="@dimen/call_button_text_width" android:layout_height="@dimen/call_button_height" android:layout_marginLeft="@dimen/call_button_margin" android:layout_toRightOf="@id/endButton">
+        <TextView android:textColor="@color/call_button_text_color_normal" android:id="@id/toolsButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" style="@style/Miui.Button.Text" />
+    </LinearLayout>
+</RelativeLayout>

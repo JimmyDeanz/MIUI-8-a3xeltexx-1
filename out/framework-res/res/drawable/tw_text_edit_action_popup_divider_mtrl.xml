@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetTop="@dimen/tw_text_edit_action_popup_divider_top_bottom_margin" android:insetBottom="@dimen/tw_text_edit_action_popup_divider_top_bottom_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/tw_text_edit_action_popup_divider_color_mtrl" />
+        <size android:width="@dimen/tw_text_edit_action_popup_divider_width" />
+    </shape>
+</inset>

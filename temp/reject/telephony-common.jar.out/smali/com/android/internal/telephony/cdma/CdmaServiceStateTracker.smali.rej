@@ -1,0 +1,21 @@
+*** CdmaServiceStateTracker.smali	2017-10-30 11:17:30.207921788 +0100
+--- CdmaServiceStateTracker.smali	2017-10-30 11:08:03.763364666 +0100
+***************
+*** 10168,10173 ****
+      move-result-object v3
+  
+      .local v3, "plmn":Ljava/lang/String;
+      const/4 v2, 0x0
+  
+      .local v2, "showPlmn":Z
+--- 10168,10177 ----
+      move-result-object v3
+  
+      .local v3, "plmn":Ljava/lang/String;
++     invoke-static {p0}, Lcom/android/internal/telephony/ServiceStateTrackerInjector;->getPlmn(Lcom/android/internal/telephony/ServiceStateTracker;)Ljava/lang/String;
++ 
++     move-result-object v3
++ 
+      const/4 v2, 0x0
+  
+      .local v2, "showPlmn":Z

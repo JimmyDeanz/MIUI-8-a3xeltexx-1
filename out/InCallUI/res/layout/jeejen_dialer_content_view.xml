@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="@dimen/jeejen_dialpad_height" android:layout_alignParentBottom="true" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <ImageButton android:id="@id/one" android:src="@drawable/jeejen_dial_num_1" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/two" android:src="@drawable/jeejen_dial_num_2" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/three" android:src="@drawable/jeejen_dial_num_3" style="@style/JeejenDialpadButtonStyle" />
+    </TableRow>
+    <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <ImageButton android:id="@id/four" android:src="@drawable/jeejen_dial_num_4" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/five" android:src="@drawable/jeejen_dial_num_5" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/six" android:src="@drawable/jeejen_dial_num_6" style="@style/JeejenDialpadButtonStyle" />
+    </TableRow>
+    <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <ImageButton android:id="@id/seven" android:src="@drawable/jeejen_dial_num_7" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/eight" android:src="@drawable/jeejen_dial_num_8" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/nine" android:src="@drawable/jeejen_dial_num_9" style="@style/JeejenDialpadButtonStyle" />
+    </TableRow>
+    <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <ImageButton android:id="@id/star" android:src="@drawable/jeejen_dial_num_star" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/zero" android:src="@drawable/jeejen_dial_num_0" style="@style/JeejenDialpadButtonStyle" />
+        <View android:background="@drawable/jeejen_dialpad_gridline_bkgnd" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/pound" android:src="@drawable/jeejen_dial_num_pound" style="@style/JeejenDialpadButtonStyle" />
+    </TableRow>
+</TableLayout>

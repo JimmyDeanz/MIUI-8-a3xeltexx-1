@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="call_info_suspect_margin_top">215.0dip</dimen>
+    <dimen name="call_tools_bottom_panel_margin_bottom">46.539978dip</dimen>
+    <dimen name="call_button_padding_bottom">31.0dip</dimen>
+    <dimen name="call_button_text_width">116.66998dip</dimen>
+    <dimen name="call_button_margin">21.5dip</dimen>
+    <dimen name="dial_panel_margin">16.0dip</dimen>
+    <dimen name="dial_panel_button_height">74.369995dip</dimen>
+    <dimen name="dial_panel_button_line_width">350.0dip</dimen>
+</resources>

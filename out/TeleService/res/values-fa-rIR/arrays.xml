@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clir_display_values">
+        <item>پیش فرض شبکه</item>
+        <item>پنهان کردن شماره</item>
+        <item>نشان دادن شماره</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA, LTE, CDMA, EvDo GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM/WCDMA, CDMA و EvDo</item>
+        <item>TD-SCDMA, GSM/WCDMA و LTE</item>
+        <item>TD-SCDMA, WCDMA و LTE</item>
+        <item>TD-SCDMA, GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM و LTE</item>
+        <item>TD-SCDMA و GSM</item>
+        <item>TD-SCDMA و LTE</item>
+        <item>TD-SCDMA و WCDMA</item>
+        <item>TD-SCDMA فقط</item>
+        <item>LTE/WCDMA</item>
+        <item>فقط LTE</item>
+        <item>LTE/GSM/CDMA (PRL) خودکار</item>
+        <item>LTE/GSM (PRL) خودکار</item>
+        <item>LTE/CDMA (PRL) خودکار</item>
+        <item>GSM/CDMA (PRL) خودکار</item>
+        <item>فقط EvDo</item>
+        <item>فقط CDMA</item>
+        <item>CDMA (PRL) خودکار</item>
+        <item>GSM (PRL) خودکار</item>
+        <item>WCDMA only</item>
+        <item>فقط GSM</item>
+        <item>WCDMA ترجیح داده می‌شود</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>انگلیسی</item>
+        <item>فرانسوی</item>
+        <item>اسپانیایی</item>
+        <item>ژاپنی</item>
+        <item>کره‌ای</item>
+        <item>چینی</item>
+        <item>عبری</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>۱</item>
+        <item>۲</item>
+        <item>۳</item>
+        <item>۴</item>
+        <item>۵</item>
+        <item>۶</item>
+        <item>۷</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>فقط خانه</item>
+        <item>خودکار</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>۰</item>
+        <item>۱</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY خاموش</item>
+        <item>TTY کامل</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>عادی</item>
+        <item>طولانی</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>خاموش</item>
+        <item>انسداد تماس رومینگ</item>
+        <item>انسداد تماس بین‌المللی</item>
+        <item>انسداد تماس‌های خروجی</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>خاموش</item>
+        <item>رومینگ</item>
+        <item>همه</item>
+    </string-array>
+    <string-array name="call_barring_incoming_values">
+        <item>-2</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+</resources>

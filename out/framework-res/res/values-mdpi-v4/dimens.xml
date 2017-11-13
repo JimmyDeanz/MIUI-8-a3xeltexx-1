@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tw_resolver_divider_height">1.0px</dimen>
+    <dimen name="liveicon_font_size_day">12.0dip</dimen>
+    <dimen name="liveicon_font_size_date">40.0dip</dimen>
+    <dimen name="liveicon_height_margin1">10.0dip</dimen>
+    <dimen name="liveicon_height_day">13.0dip</dimen>
+    <dimen name="liveicon_height_margin2">2.0dip</dimen>
+    <dimen name="liveicon_height_date">32.0dip</dimen>
+    <dimen name="universal_switch_stroke_width">2.0dip</dimen>
+    <dimen name="multiwindow_minimized_width">72.0dip</dimen>
+    <dimen name="multiwindow_minimized_height">72.0dip</dimen>
+    <dimen name="multiwindow_titlebar_height">0.0dip</dimen>
+    <dimen name="multiwindow_minimize_inner_icon_radius">32.0dip</dimen>
+    <dimen name="multiwindow_app_icon">72.0dip</dimen>
+    <dimen name="multiwindow_floating_resize_area">15.0dip</dimen>
+    <dimen name="multiwindow_frame_out_shadow_size">2.0dip</dimen>
+    <dimen name="multiwindow_floating_mBorderPaintInner">3.0dip</dimen>
+    <dimen name="multiwindow_remove_layout_height">64.0dip</dimen>
+    <dimen name="multiwindow_pen_window_show_boundaryY">40.0dip</dimen>
+    <dimen name="airview_default_bg_padding_top">1.0dip</dimen>
+    <dimen name="airview_default_bg_padding_bottom">4.0dip</dimen>
+    <dimen name="airview_default_bg_outline_thickness">1.0dip</dimen>
+</resources>

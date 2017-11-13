@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.view.DoubleCallInfoView android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/double_call_info_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/double_primary_call" android:background="@drawable/bg_double_call_item" android:paddingTop="@dimen/double_call_item_padding" android:paddingBottom="@dimen/double_call_item_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/primary_avatar" android:layout_width="@dimen/double_call_avatar_width" android:layout_height="@dimen/double_call_avatar_width" android:src="@drawable/double_call_avatar" android:layout_marginEnd="@dimen/double_call_avatar_margin_right" />
+        <ImageButton android:id="@id/primary_hang_up" android:visibility="gone" style="@style/DoubleCall.ImageView" />
+        <TextView android:id="@id/primary_call_name" android:layout_toStartOf="@id/primary_hang_up" android:layout_toEndOf="@id/primary_avatar" style="@style/DoubleCall.CallName" />
+        <ImageView android:id="@id/primary_sim_card_info" android:visibility="gone" android:layout_below="@id/primary_call_name" android:layout_alignBottom="@id/primary_call_state" android:layout_toEndOf="@id/primary_avatar" style="@style/DoubleCall.SimCardIndicator" />
+        <TextView android:id="@id/primary_call_state" android:layout_below="@id/primary_call_name" android:layout_toEndOf="@id/primary_sim_card_info" style="@style/DoubleCall.CallState" />
+        <TextView android:id="@id/primary_call_time" android:layout_below="@id/primary_call_name" android:layout_toEndOf="@id/primary_call_state" style="@style/DoubleCall.CallTime" />
+        <ImageView android:id="@id/primary_conf_control" android:visibility="gone" android:layout_width="@dimen/double_call_avatar_width" android:layout_height="@dimen/double_call_avatar_width" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/DoubleCall.ImageView" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/double_secondary_call" android:background="@drawable/bg_double_call_item" android:paddingTop="@dimen/double_call_item_padding" android:paddingBottom="@dimen/double_call_item_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/secondary_avatar" android:layout_width="@dimen/double_call_avatar_width" android:layout_height="@dimen/double_call_avatar_width" android:src="@drawable/double_call_avatar" android:layout_marginEnd="@dimen/double_call_avatar_margin_right" />
+        <ImageButton android:id="@id/secondary_hang_up" android:visibility="gone" style="@style/DoubleCall.ImageView" />
+        <TextView android:id="@id/secondary_call_name" android:layout_toStartOf="@id/secondary_hang_up" android:layout_toEndOf="@id/secondary_avatar" style="@style/DoubleCall.CallName" />
+        <ImageView android:id="@id/second_sim_card_info" android:visibility="gone" android:layout_below="@id/secondary_call_name" android:layout_alignBottom="@id/secondary_call_state" android:layout_toEndOf="@id/secondary_avatar" style="@style/DoubleCall.SimCardIndicator" />
+        <TextView android:id="@id/secondary_call_state" android:layout_below="@id/secondary_call_name" android:layout_toEndOf="@id/second_sim_card_info" style="@style/DoubleCall.CallState" />
+        <TextView android:id="@id/secondary_call_time" android:layout_below="@id/secondary_call_name" android:layout_toEndOf="@id/secondary_call_state" style="@style/DoubleCall.CallTime" />
+        <ImageView android:id="@id/secondary_conf_control" android:visibility="gone" android:layout_width="@dimen/double_call_avatar_width" android:layout_height="@dimen/double_call_avatar_width" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/DoubleCall.ImageView" />
+    </RelativeLayout>
+</com.android.incallui.view.DoubleCallInfoView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textColor="@color/livetalk_black" android:id="@id/area_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="4" android:inputType="number" />
+    <CheckBox android:textColor="@color/livetalk_grey" android:id="@id/is_default_area_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/areacode_set_default" style="@miui:style/Widget.CompoundButton.CheckBox" />
+</LinearLayout>

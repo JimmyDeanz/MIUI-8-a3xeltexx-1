@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.view.AnimationCircleLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/in_call_and_button_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/callcard" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/buttonContainer" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/extra_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/jeejen_incall_screen_layer_stub" android:layout="@layout/jeejen_incall_screen_layer" android:inflatedId="@id/jeejen_incall_screen_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/smart_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.incallui.view.AnimationCircleLayout>

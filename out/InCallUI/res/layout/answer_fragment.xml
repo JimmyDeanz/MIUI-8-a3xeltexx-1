@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.view.SlideUpLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:slide="http://schemas.android.com/apk/res/com.android.incallui">
+    <com.android.incallui.view.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" slide:panelHeight="@dimen/incoming_panel_height" slide:shadowHeight="0.0dip" slide:paralaxOffset="0.0dip" slide:fadeColor="@android:color/transparent">
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:paddingBottom="@dimen/incoming_circle_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/incoming_reject_text" android:text="@string/incoming_circle_text_reject_p" style="@style/Incoming.Text" />
+            <TextView android:id="@id/incoming_answer_text" android:layout_marginLeft="@dimen/incoming_circle_img_margin_right" android:text="@string/incoming_circle_text_reject_p" style="@style/Incoming.Text" />
+            <TextView android:id="@id/incoming_message_text" android:layout_marginLeft="@dimen/incoming_circle_img_margin_right" android:text="@string/incoming_circle_text_reject_p" style="@style/Incoming.Text" />
+        </LinearLayout>
+        <include android:id="@id/answer_oper_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/answer_oper_view" />
+    </com.android.incallui.view.SlidingUpPanelLayout>
+</com.android.incallui.view.SlideUpLayout>

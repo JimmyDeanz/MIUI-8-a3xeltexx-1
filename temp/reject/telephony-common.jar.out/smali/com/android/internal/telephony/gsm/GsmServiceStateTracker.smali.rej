@@ -1,0 +1,40 @@
+*** GsmServiceStateTracker.smali	2017-10-30 11:17:33.995900602 +0100
+--- GsmServiceStateTracker.smali	2017-10-30 11:08:07.275340897 +0100
+***************
+*** 9894,9899 ****
+  
+      .local v6, "spn":Ljava/lang/String;
+      :goto_3
+      move-object v7, v6
+  
+      .local v7, "dataSpn":Ljava/lang/String;
+--- 9894,9903 ----
+  
+      .local v6, "spn":Ljava/lang/String;
+      :goto_3
++     invoke-static/range {p0 .. p0}, Lcom/android/internal/telephony/ServiceStateTrackerInjector;->getSpn(Lcom/android/internal/telephony/ServiceStateTracker;)Ljava/lang/String;
++ 
++     move-result-object v6
++ 
+      move-object v7, v6
+  
+      .local v7, "dataSpn":Ljava/lang/String;
+***************
+*** 10171,10177 ****
+  
+      new-instance v11, Landroid/content/Intent;
+  
+!     const-string v1, "android.provider.Telephony.SPN_STRINGS_UPDATED"
+  
+      invoke-direct {v11, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+  
+--- 10175,10183 ----
+  
+      new-instance v11, Landroid/content/Intent;
+  
+!     invoke-static/range {p0 .. p0}, Lcom/android/internal/telephony/ServiceStateTrackerInjector;->getSpnUpdateActionName(Lcom/android/internal/telephony/ServiceStateTracker;)Ljava/lang/String;
+! 
+!     move-result-object v1
+  
+      invoke-direct {v11, v1}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+  

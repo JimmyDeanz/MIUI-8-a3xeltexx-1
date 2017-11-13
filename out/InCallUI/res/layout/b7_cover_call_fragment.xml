@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:slide="http://schemas.android.com/apk/res/com.android.incallui">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7_cover_call_info_margin_top">
+        <TextView android:textSize="@dimen/b7_cover_name_text_size" android:textColor="@color/smart_cover_incall_call_banner_text_color" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/b7_cover_phone_number_text_size" android:textColor="@color/smart_cover_incall_call_banner_text_color" android:id="@id/phoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7_cover_phone_number_margin_top" android:singleLine="true" android:textDirection="ltr" />
+        <TextView android:textSize="@dimen/b7_cover_time_text_size" android:textColor="@color/smart_cover_incall_call_banner_text_color" android:id="@id/elapsedTime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7_cover_time_margin_top" android:singleLine="true" />
+        <TextView android:textSize="@dimen/b7_cover_telocation_operator_text_size" android:textColor="@color/smart_cover_incall_call_banner_text_color" android:id="@id/telocation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b7_cover_telocation_operator_margin_top" />
+    </LinearLayout>
+    <Button android:id="@id/end_button" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/b7_cover_end_button_width_height" android:layout_height="@dimen/b7_cover_end_button_width_height" android:layout_marginBottom="@dimen/b7_cover_end_btn_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.android.incallui.view.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" slide:panelHeight="@dimen/b7_cover_incoming_panel_height" slide:shadowHeight="0.0dip" slide:paralaxOffset="0.0dip" slide:fadeColor="@android:color/transparent">
+        <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:paddingBottom="@dimen/b7_cover_incoming_circle_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/incoming_reject_text" android:paddingLeft="@dimen/b7_cover_incoming_text_padding_left_right" android:layout_width="0.0dip" android:text="@string/incoming_circle_text_reject_p" android:layout_weight="1.0" style="@style/Incoming.Text" />
+            <TextView android:id="@id/incoming_answer_text" android:paddingRight="@dimen/b7_cover_incoming_text_padding_left_right" android:layout_width="0.0dip" android:text="@string/incoming_circle_text_reject_p" android:layout_weight="1.0" style="@style/Incoming.Text" />
+        </LinearLayout>
+        <ViewStub android:id="@id/answer_oper_layout" android:layout="@layout/b7_cover_answer_oper_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.incallui.view.SlidingUpPanelLayout>
+</RelativeLayout>

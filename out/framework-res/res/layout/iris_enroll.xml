@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/iris_enroll_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/iris_enroll_preview_layout" android:layout_width="fill_parent" android:layout_height="@dimen/iris_enroll_preview_height">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/iris_enroll_eye_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix">"
+</ImageView>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/iris_enroll_preview_circle_group_width" android:layout_height="@dimen/iris_enroll_preview_circle_diameter" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <ProgressBar android:id="@id/iris_enroll_progress_circle_left" android:background="@drawable/iris_custom_progress_background" android:layout_width="@dimen/iris_enroll_preview_circle_diameter" android:layout_height="@dimen/iris_enroll_preview_circle_diameter" android:max="1000" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/iris_custom_progress" style="?android:attr/progressBarStyleHorizontal" />
+                <ImageView android:layout_width="@dimen/iris_enroll_preview_thumnail_width" android:layout_height="@dimen/iris_enroll_preview_circle_diameter" />
+                <ProgressBar android:id="@id/iris_enroll_progress_circle_right" android:background="@drawable/iris_custom_progress_background" android:layout_width="@dimen/iris_enroll_preview_circle_diameter" android:layout_height="@dimen/iris_enroll_preview_circle_diameter" android:max="1000" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/iris_custom_progress" style="?android:attr/progressBarStyleHorizontal" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/iris_enroll_margin_first">
+        <Button android:id="@id/iris_enroll_increasvaluebtn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/iris_enroll_test_increate_value_btn" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/iris_enroll_percentage_font_size" android:textColor="@color/iris_enroll_percentage_color" android:gravity="center" android:id="@id/iris_enroll_progress_percentage_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iris_enroll_percentage_text" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/iris_enroll_margin_second" />
+    <TextView android:textSize="@dimen/iris_enroll_guide_font_size" android:textColor="@color/iris_enroll_guide_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/iris_enroll_guide1" android:fontFamily="sans-serif-regular" />
+</LinearLayout>

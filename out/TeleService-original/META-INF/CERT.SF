@@ -1,0 +1,658 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: 0NF6ksJpIoHGlbFeutHz1D8RPEo=
+
+Name: res/layout/dialpad_view_unthemed.xml
+SHA1-Digest-Manifest: a1h8o5wYWuKbMjI6Sna8PUX9EA8=
+
+Name: res/layout/custom_location_list.xml
+SHA1-Digest-Manifest: QPYQbwJJVrFvc8NUEm6bYRqrrok=
+
+Name: res/layout/delete_fdn_contact_screen.xml
+SHA1-Digest-Manifest: +dHuKMhWfPAtOPF0flGQzL1Hi1o=
+
+Name: res/layout/dialpad_view.xml
+SHA1-Digest-Manifest: Ns/L2MxHDZ3rV9t6e93gGivAvhw=
+
+Name: res/xml/voicemail_settings.xml
+SHA1-Digest-Manifest: SsKOpIF3YV6GSkz9ybPof54CmLA=
+
+Name: res/drawable-xxhdpi-v4/mi_small_sim_icon.png
+SHA1-Digest-Manifest: T1SJ0GffPqhltsv/REv6eccm/t8=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call_end.png
+SHA1-Digest-Manifest: wp1afYZVImZrGztRXN+M4LO+HTI=
+
+Name: res/layout/otacall_card.xml
+SHA1-Digest-Manifest: elWvNVwTXmyvpq7K8lX4Uo2x1h8=
+
+Name: res/drawable-xxhdpi-v4/mi_big_sim_icon.png
+SHA1-Digest-Manifest: 634Hu0IKOKyugHQtXI9ayxQHfmo=
+
+Name: res/xml/miui_carrier_select.xml
+SHA1-Digest-Manifest: p4wH32qekoZSuIOSoOdXDyUqe2g=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_contacts.png
+SHA1-Digest-Manifest: LJM0O5TOYXEMUSGWgTomKcdWl0Y=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_phone.png
+SHA1-Digest-Manifest: A9mLJZwPekiXVCqx57oxVVV1Yrg=
+
+Name: res/xml/miui_cdma_call_privacy.xml
+SHA1-Digest-Manifest: xu2wpXTQ0sSqnoWiSKbb+J2P6Eg=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_contacts.png
+SHA1-Digest-Manifest: wOpO2l9wiT78ZskOjL6aN8brXMg=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/mi_small_sim_icon.png
+SHA1-Digest-Manifest: Dgwz0tycJdvkpSRKbIeyHDWK17o=
+
+Name: res/xml/callforward_options.xml
+SHA1-Digest-Manifest: 8tBEtFdOThj13eftR2J5r3EZ88s=
+
+Name: res/drawable-xhdpi-v4/ic_dial_action_delete.png
+SHA1-Digest-Manifest: kd1+Fp1IM30d4xmV/y3eteAkI9w=
+
+Name: res/drawable-xxhdpi-v4/small_sim_icon_slot_2.png
+SHA1-Digest-Manifest: iGKPfi1e7MdsuGqeP9sgVzxTyds=
+
+Name: res/layout/enable_sim_pin_screen.xml
+SHA1-Digest-Manifest: cSDg+aku7cSy+oCb7rqEUZYxi28=
+
+Name: res/xml/gsm_umts_additional_options.xml
+SHA1-Digest-Manifest: 5uOvi9MpFppoqOwgysrPflYqZ3E=
+
+Name: res/layout/sim_ndp.xml
+SHA1-Digest-Manifest: jrzctW1Z9ptiL+fAPwpON9sUdvg=
+
+Name: res/xml/data_usage_settings.xml
+SHA1-Digest-Manifest: Mor3/0ia6DBMVlfcE8UsRSMo4KA=
+
+Name: res/xml/preferred_network_type_mtk_m.xml
+SHA1-Digest-Manifest: omI7yjnHWQ5yu2eXlSZb4thKmR4=
+
+Name: res/xml/miui_gsm_umts_call_options.xml
+SHA1-Digest-Manifest: Tgd+TaZcm8OrZSZw8HL/1XubXaw=
+
+Name: res/xml/preferred_network_type_lc.xml
+SHA1-Digest-Manifest: kqvGARcxC/rnnhHMyWst01TaG/M=
+
+Name: res/drawable-xxhdpi-v4/incall_dialer_panel_button_bg_pressed.png
+SHA1-Digest-Manifest: XbJJ8q57RSpRP/Kdi/n9igfU0Kw=
+
+Name: res/drawable-xhdpi-v4/stat_sys_vp_phone_call.png
+SHA1-Digest-Manifest: c31hF7Km3CBYyrmjSfqGXzd5NQI=
+
+Name: res/drawable-xhdpi-v4/dial_num_star_wht.png
+SHA1-Digest-Manifest: kSFzdtc/1vmk6uplkQjfuvXXSd0=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_see_contacts_holo_dark.png
+SHA1-Digest-Manifest: 9HT/vKi9YUTaNMG/KS6vKJyRScs=
+
+Name: res/layout/miui_sip_settings_ui.xml
+SHA1-Digest-Manifest: +U7OBqeg8NYSv6fR2nK9rzKR0oI=
+
+Name: res/drawable-xxhdpi-v4/emergency_dial_action_normal.png
+SHA1-Digest-Manifest: zvfHX+NpjCWWffSK6R3d+ywS8wo=
+
+Name: res/xml/miui_gsm_umts_additional_options.xml
+SHA1-Digest-Manifest: KClT+5KG3X9vuCQQeL3VE8mItjg=
+
+Name: res/xml/voicemail_setting.xml
+SHA1-Digest-Manifest: +TO5OCK5IlQTp7VT0pNvyFN+Fxg=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_phone.png
+SHA1-Digest-Manifest: l0i18I0thTI47cJVnQxBpbH2Uds=
+
+Name: res/xml/sip_edit.xml
+SHA1-Digest-Manifest: RLYGWjBs0AEpEVjIraecjdpfXM4=
+
+Name: res/xml/gsm_umts_options.xml
+SHA1-Digest-Manifest: qvzBa1g8qBvYz+QKxureVstNhFE=
+
+Name: res/xml/carrier_select.xml
+SHA1-Digest-Manifest: gj5xU3j5nTVapJ5/5znaZAdhYlc=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_white_24dp.png
+SHA1-Digest-Manifest: lj4aO4RpTgDYHwhWnDEa3QEhd8w=
+
+Name: res/xml/accessibility_settings.xml
+SHA1-Digest-Manifest: +0nLhqkhDGRLbH18qLnec4bzcT4=
+
+Name: res/anim/dialpad_slide_out_left.xml
+SHA1-Digest-Manifest: 3lrVqakFApRH7Fkz8/TnkWzu384=
+
+Name: res/anim/dialpad_slide_in_bottom.xml
+SHA1-Digest-Manifest: f2JaXcy5FvATpD8T7KpMWRPhnJo=
+
+Name: res/xml/miui_sip_edit.xml
+SHA1-Digest-Manifest: UrkrB1AzkoQwy4YlDzcNOiLUzjM=
+
+Name: res/xml/miui_fdn_setting.xml
+SHA1-Digest-Manifest: JKhDfr0ULy0rOdyVrTPBN37g8vQ=
+
+Name: res/layout/auto_ip_exception_setting.xml
+SHA1-Digest-Manifest: 3/UAPsQdKf0tZXmkBc2YiI6Xf5I=
+
+Name: res/color/ota_title_color.xml
+SHA1-Digest-Manifest: R4SmXFDkrI2xUx2HlEkeTNsbG4I=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/small_sim_icon_slot_1.png
+SHA1-Digest-Manifest: I3+AatL9PFm6LIhylXvpJYWTQwE=
+
+Name: res/layout/adn_list.xml
+SHA1-Digest-Manifest: OXJtiT8D0Xx1PMIKfAL5YYNZTNg=
+
+Name: res/drawable-xxhdpi-v4/ic_add_24dp.png
+SHA1-Digest-Manifest: bcyQweHFFIwvgscMmSgbR1K+PWY=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_vp_phone_call_on_hold.png
+SHA1-Digest-Manifest: yMM9MmzLn1IVNVZm5+4MQFOcqwY=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_btn_next.png
+SHA1-Digest-Manifest: CkAcjrd9HKO+ks81I7LCIWJqTzo=
+
+Name: res/drawable-xhdpi-v4/ic_launcher_sip_call.png
+SHA1-Digest-Manifest: y0f52jj0dY7a2thGbqIQLjIHSSU=
+
+Name: res/drawable-xxhdpi-v4/edit_text_bg.png
+SHA1-Digest-Manifest: YmZty/pVC3W40ch+UfHjMUX3sg8=
+
+Name: res/color/default_sim_icon_tint_color.xml
+SHA1-Digest-Manifest: UpHj4pxSpWHWiC4BdTmsD2LolP0=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_phone.png
+SHA1-Digest-Manifest: 7WWShHTetB41R9QE4Ur3LXicUpc=
+
+Name: res/drawable-xhdpi-v4/list_selector_disabled_holo_dark.9.png
+SHA1-Digest-Manifest: 9ygqLwpaL++mOn+sg1AbCd3CmF8=
+
+Name: res/xml/network_setting.xml
+SHA1-Digest-Manifest: Y7Mli7aBBSgf7C8p6DrtWfc7Vig=
+
+Name: res/drawable-xhdpi-v4/ic_menu_contact.png
+SHA1-Digest-Manifest: A4W2QdtmgYxurtDH6vpL6+/6Yzc=
+
+Name: res/layout/dialpad.xml
+SHA1-Digest-Manifest: rJEdXOa5xYI/PmuBbDDp1+48uJk=
+
+Name: res/xml/uplmn_list.xml
+SHA1-Digest-Manifest: 7L+sSQW1wrhBbXZuYuo+Hhm2F60=
+
+Name: res/layout/msim_list_preference_layout.xml
+SHA1-Digest-Manifest: /iU7/F2s3/ySFVmW3F79BbTYyds=
+
+Name: res/xml/sim_picker.xml
+SHA1-Digest-Manifest: iJzNAjetd8910ZxnnR2FGvCq0Lc=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/mi_big_sim_icon.png
+SHA1-Digest-Manifest: QXWhHtKIQYW4bxJSBtcY7oxQud4=
+
+Name: res/drawable-xhdpi-v4/ic_dial_action_call.png
+SHA1-Digest-Manifest: vaHbSsgrljiZ1BprIHIIxmK+EMY=
+
+Name: res/layout/auto_record_whitelist_setting_list_item.xml
+SHA1-Digest-Manifest: ZuL5jM/2Z+25QuGP65oyizlA9f8=
+
+Name: res/layout/miui_edit_fdn_contact_screen.xml
+SHA1-Digest-Manifest: I6GD0I13HCkqDbjIdsZqiL5djkM=
+
+Name: res/drawable-xhdpi-v4/ic_btn_back.png
+SHA1-Digest-Manifest: u741AGQZShxsjQitZHBZ6gBZkrQ=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_phone_call_forward.png
+SHA1-Digest-Manifest: H6DGzf9BtM0nmUgTQk+dyF9Admo=
+
+Name: res/xml/call_record_setting.xml
+SHA1-Digest-Manifest: Y6PvTe2ujdez1a4Kb0E/uFY3dG0=
+
+Name: res/xml/uplmn_editor.xml
+SHA1-Digest-Manifest: MMfj6BxcTVesSD4GtV8zIn/ZvFo=
+
+Name: res/layout/dialpad_key_pound.xml
+SHA1-Digest-Manifest: CBSvFxdsk8Fgy9opFI03s9d+1Kw=
+
+Name: res/layout/pref_dialog_editphonenumber.xml
+SHA1-Digest-Manifest: JdQJaL0jv6G5GXMHESo/p5/GFLw=
+
+Name: res/xml/auto_ip_setting.xml
+SHA1-Digest-Manifest: i1rAK5jfzRXXv51amzFyRZuB/Xw=
+
+Name: res/layout/custom_location_listitem.xml
+SHA1-Digest-Manifest: Vj5/VA5P3L3UNvrdyjlRWdh1+ig=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_phone.png
+SHA1-Digest-Manifest: 4xRn5JEeES4/KfUyedvKcuMEq80=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/big_sim_icon_slot_1.png
+SHA1-Digest-Manifest: 6hPzZ8r+0cFelYsfi4WFOsiKErM=
+
+Name: res/drawable-xxhdpi-v4/big_sim_icon_slot_1.png
+SHA1-Digest-Manifest: 84WuwhVxU6b6mRKEaHlaJ3pS4iU=
+
+Name: res/xml/gsm_umts_call_waiting_setting.xml
+SHA1-Digest-Manifest: FmkYu/wndZD55KxYWjJ5Q+6DQKo=
+
+Name: res/xml/call_barring_options.xml
+SHA1-Digest-Manifest: ALdLH7i6vFUHGCrsFSvCMiH1XqU=
+
+Name: res/xml/preferred_network_type_3g.xml
+SHA1-Digest-Manifest: 41piSS1TX35vglSt7GzpueQvdJY=
+
+Name: res/layout/enable_fdn_screen.xml
+SHA1-Digest-Manifest: lxqNq26ow2SSF33V/tyYuflZ2G8=
+
+Name: res/drawable/emergency_dial_action.xml
+SHA1-Digest-Manifest: apyRynU78vuyo5Ic4YxbLXNnocA=
+
+Name: res/xml/miui_respond_via_sms_settings.xml
+SHA1-Digest-Manifest: oN+4Y0chEiAm7grbPY04D1HjJ4c=
+
+Name: res/drawable/respond_via_sms_reset_menu.xml
+SHA1-Digest-Manifest: VxaPq5lc4AOndEN4a690TuXGeQQ=
+
+Name: res/xml/gsm_umts_caller_id_setting.xml
+SHA1-Digest-Manifest: 1zZNuWD9Fz4kT+E4cmemvnGpp9c=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call.png
+SHA1-Digest-Manifest: Uz+zPc1pMH82wYkPY8QIWUgOwCk=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_vp_phone_call.png
+SHA1-Digest-Manifest: 4GEl8C/ZzMgUfwB7TVCJVDnyOx4=
+
+Name: res/drawable-xxhdpi-v4/action_button_clear_pressed.png
+SHA1-Digest-Manifest: rp7Lc4dbMltVuHFaNY1wmHMlrzQ=
+
+Name: res/drawable-xhdpi-v4/ic_dialer_sip_black_24dp.png
+SHA1-Digest-Manifest: UDedS7RMfcnZh/Gh9/iDkPBrC1I=
+
+Name: res/layout/msim_list_item.xml
+SHA1-Digest-Manifest: zMTs4ALd7fe2TzswdYHMJol1i7U=
+
+Name: res/layout-land/dialpad_key_pound.xml
+SHA1-Digest-Manifest: Cdkj2RnI/A51yveDaCVHEMYA09A=
+
+Name: res/xml/call_feature_setting.xml
+SHA1-Digest-Manifest: 2dXS3ZdSs/229iE50MJWyAEbhSQ=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/big_sim_icon_slot_2.png
+SHA1-Digest-Manifest: Nc32aqgAusbwD2OMbxAPm9ixj2I=
+
+Name: res/layout/auto_record_whitelist_setting.xml
+SHA1-Digest-Manifest: dp0cc5+H/Re5No/amyKPQbvGFB8=
+
+Name: res/xml/miui_network_setting.xml
+SHA1-Digest-Manifest: umKRXh4Sar9ojAuMGkh4pSIIfzY=
+
+Name: res/drawable/btn_compound_background.xml
+SHA1-Digest-Manifest: BMkWXUaBRfq/LHhA+mbzCznd6G8=
+
+Name: res/anim/dialpad_slide_out_right.xml
+SHA1-Digest-Manifest: 3PW3tehYLt1PRIRVMoUbNHFUEhY=
+
+Name: res/xml/preferred_network_type_3g_ct.xml
+SHA1-Digest-Manifest: WyFSE3Ce+MWB0RO2c5YbuerRMSo=
+
+Name: res/color/settings_text_color_secondary.xml
+SHA1-Digest-Manifest: 03rOy590MyyyNIQpR4rSESdoPZk=
+
+Name: res/drawable-xxhdpi-v4/ic_incall_voice_mail_image.png
+SHA1-Digest-Manifest: 8hbrdFBP4hMgVPTO5dbHcKfeSRo=
+
+Name: res/drawable-xxhdpi-v4/ic_dialpad_delete.png
+SHA1-Digest-Manifest: XipRdlmSbDYUp2YBT9xjW31AZkU=
+
+Name: res/drawable-xhdpi-v4/stat_sys_vp_phone_call_on_hold.png
+SHA1-Digest-Manifest: aw/4gobfk/oORIL/TRE4RF8WX98=
+
+Name: res/layout/dialpad_key_one.xml
+SHA1-Digest-Manifest: L46o9A9ny67XFpFkM/k/AgL7Aiw=
+
+Name: res/drawable/list_selector_focused_and_checked.xml
+SHA1-Digest-Manifest: bzhHNGz1bWDquTXxCxJqYb5VaTM=
+
+Name: res/xml/preferred_network_type_lte_ct.xml
+SHA1-Digest-Manifest: mEXE1aoIlAz4ypdl+2iwOlb8v1Q=
+
+Name: res/xml/gsm_umts_call_options.xml
+SHA1-Digest-Manifest: bTxXR8qNBHR3mQNeyL65BLqJ8BQ=
+
+Name: res/drawable-xxhdpi-v4/ic_multi_sim.png
+SHA1-Digest-Manifest: KBFgx6BLlCvIv+OgkJS1QO0AVaY=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_phone_call.png
+SHA1-Digest-Manifest: lyHEltYyt1npwXKHgG7Frz74bQI=
+
+Name: res/drawable-xhdpi-v4/list_focused_holo.9.png
+SHA1-Digest-Manifest: dnbfpb0zIyjIATnkvioBlZ4qSpw=
+
+Name: res/xml/cell_broadcast_sms.xml
+SHA1-Digest-Manifest: e2y3vCEbHCtjfY7my3klMR4Lwr8=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_overflow_lt.png
+SHA1-Digest-Manifest: u0UGySa/HeeCwPbqIBmVc8jB+jk=
+
+Name: res/layout/call_barring_change_password.xml
+SHA1-Digest-Manifest: g+a6zG+4BttNC+CxT0n/uq8EqAM=
+
+Name: res/drawable-xhdpi-v4/ic_btn_next.png
+SHA1-Digest-Manifest: g9wj+HcVua5+bsoEL5GpLtikDw4=
+
+Name: res/layout/sim_import_list_entry.xml
+SHA1-Digest-Manifest: l/XSU4qNU7Whf1aBp45SDezUBM4=
+
+Name: res/drawable-xxhdpi-v4/ic_dialpad_voicemail.png
+SHA1-Digest-Manifest: Y/FRgCw9EQOgSCcuk+jVACMPpZY=
+
+Name: res/xml/location_setting.xml
+SHA1-Digest-Manifest: ux1MQ5AJE3GlgwFIuH6o/MxI3BE=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/ic_see_contacts.png
+SHA1-Digest-Manifest: hxLnQJyPifQet/huqhy0RDzvQto=
+
+Name: res/layout-land/dialpad_key.xml
+SHA1-Digest-Manifest: ZeqYyxT/qr3bxUNhuFJVNk8BiNA=
+
+Name: res/layout/outgoing_call_broadcaster.xml
+SHA1-Digest-Manifest: MrzljQ2vrt3lMEMp9wX3NF81pQs=
+
+Name: res/xml/preferred_network_type_pinecone.xml
+SHA1-Digest-Manifest: xJ/k9k/aIVeHccxuNtSgj3YF3sc=
+
+Name: res/layout/call_barring_option.xml
+SHA1-Digest-Manifest: uWQ/PkeQusLQ5n2E8A4o2Li68Sc=
+
+Name: res/xml/miui_gsm_umts_options.xml
+SHA1-Digest-Manifest: 9Hl8CtGl971xYewy4G/CRaavYeE=
+
+Name: res/xml/preferred_network_type_lte.xml
+SHA1-Digest-Manifest: M7b1ypEwOWIFD7OPzM2l2Es3q+k=
+
+Name: res/xml/call_waiting.xml
+SHA1-Digest-Manifest: aKNsawtR6BJhk2rhBmP/B2t54BA=
+
+Name: res/drawable-xxhdpi-v4/small_sim_icon_slot_1.png
+SHA1-Digest-Manifest: HgVjBZoJQoeFqfQ8WDelvrryZBc=
+
+Name: res/layout/pref_dialog_editpin.xml
+SHA1-Digest-Manifest: PZDFuCXpaCwgENDTPHpMj0MuRFw=
+
+Name: res/drawable-xxhdpi-v4/ic_overflow_menu.png
+SHA1-Digest-Manifest: kenPaomMLje5YpR/XErhqIlNu1g=
+
+Name: res/layout/change_sim_pin_screen.xml
+SHA1-Digest-Manifest: yyetVLOR6MBO+NJYJBeXVdo20r0=
+
+Name: res/xml/answer_state_setting.xml
+SHA1-Digest-Manifest: t38/wjcASO//C60ycJHDTP09F0s=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/ic_emergency_callback_mode.png
+SHA1-Digest-Manifest: ri1GCyl8nv104axmv2YwTmHIyqY=
+
+Name: res/anim/dialpad_slide_in_left.xml
+SHA1-Digest-Manifest: R/mPXMZUflO4V2Mk+V3DKezfEMg=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_phone.png
+SHA1-Digest-Manifest: /xNVExr8C8yibZrJQ9Hkfradgsk=
+
+Name: res/xml/fdn_setting.xml
+SHA1-Digest-Manifest: /GrlsWLReOMGzI89bPvzmDDdFPk=
+
+Name: res/layout/auto_ip_exception_setting_list_item.xml
+SHA1-Digest-Manifest: w41WIVDcs/cxEjR/1PqeQKjAQRc=
+
+Name: res/drawable/overflow_menu.xml
+SHA1-Digest-Manifest: hWTA/Owv8FXNFmGzmdf3rCAhKVc=
+
+Name: res/xml/sip_setting.xml
+SHA1-Digest-Manifest: E3Itr38w86sFUROD7mae2gnXmYk=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call_on_hold.png
+SHA1-Digest-Manifest: ItTr90t3NHTN4Qf+hBDi0aiZCaw=
+
+Name: res/drawable-xxhdpi-v4/incall_dialer_panel_button_bg_normal.png
+SHA1-Digest-Manifest: P6iiVQEOtlE8w6j7lq2yfCTwaD0=
+
+Name: resources.arsc
+SHA1-Digest-Manifest: AZSwc8RIRV2kqUUHd95fITOuuvo=
+
+Name: res/layout-land/dialpad_key_one.xml
+SHA1-Digest-Manifest: rwkjjVGMgKt45LUucoG1h8j86qc=
+
+Name: AndroidManifest.xml
+SHA1-Digest-Manifest: ncq3avmIF31lS1iSmgDUEQNjqhg=
+
+Name: res/layout-land/dialpad_key_star.xml
+SHA1-Digest-Manifest: FH47kjAw39L+U5OKv7Ozn6WaqmM=
+
+Name: res/drawable-xhdpi-v4/dial_num_pound_wht.png
+SHA1-Digest-Manifest: v3q+oOFd1hrbfxYSo+Ibp+DHe1Q=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_contacts.png
+SHA1-Digest-Manifest: kYsG8xxh1Ni4zXP+3PwcoMcwFhM=
+
+Name: res/xml/cdma_callforward_options.xml
+SHA1-Digest-Manifest: ySFg/XkEiGC5pDdgueRzl6g/tDo=
+
+Name: res/xml/msim_sim_info_editor.xml
+SHA1-Digest-Manifest: 85jvPKl8lIsQjkXbeca95ImXAx8=
+
+Name: res/layout/dialpad_additional_buttons.xml
+SHA1-Digest-Manifest: 1E0FBpy5vNjlmJ6/sdbU3dYL5fQ=
+
+Name: res/layout/telephony_disallowed_preference_screen.xml
+SHA1-Digest-Manifest: PVx7jFwH40BfLc3U8176Q215pZk=
+
+Name: res/drawable-xxhdpi-v4/incall_dialer_panel_bg.9.png
+SHA1-Digest-Manifest: SC0qUduig9GN4XHdcRKy0LXdR2g=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_contacts.png
+SHA1-Digest-Manifest: lKgOaukEwRtu6Fvy7KkzbtCDFAc=
+
+Name: res/drawable-xxhdpi-v4/fab_green.png
+SHA1-Digest-Manifest: Rljpy/17JDHjk6Yzj48TCQSNwJk=
+
+Name: res/color/settings_text_color_primary.xml
+SHA1-Digest-Manifest: oiezIWytq3eZbj9kYTBJhvFwJag=
+
+Name: classes.dex
+SHA1-Digest-Manifest: flFe4h/SlVZg0Op+2PCCyqlROQE=
+
+Name: res/drawable-xxhdpi-v4/ic_incall_pound_image.png
+SHA1-Digest-Manifest: XHGzJW9qs2LugVZVV5Iu/IJuH90=
+
+Name: res/drawable-xhdpi-v4/list_pressed_holo_dark.9.png
+SHA1-Digest-Manifest: eLP0sguM4+hR61Rq1o8wr5QpR3g=
+
+Name: res/layout/dialog_ussd_response.xml
+SHA1-Digest-Manifest: 3uZya2uttebLlVnkeCg3GIFlvRw=
+
+Name: res/layout-land/dialpad_key_zero.xml
+SHA1-Digest-Manifest: nj1LYK7bygooHAAWKId3i+rAK3s=
+
+Name: res/layout/edit_fdn_contact_screen.xml
+SHA1-Digest-Manifest: P8Jaw1Hw2aqVkfM5Y2IG4nlOx4E=
+
+Name: res/xml/phone_account_settings.xml
+SHA1-Digest-Manifest: GfIEz75kfDLNMBoj8IIzHWo0+so=
+
+Name: res/drawable-xhdpi-v4/stat_sys_phone_call_forward.png
+SHA1-Digest-Manifest: puNZfiMOKBPbW1YUmdqFVljDewY=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_dial_action_call.png
+SHA1-Digest-Manifest: tQ9jBjPseyVCZu1VeamPo30E230=
+
+Name: res/drawable/btn_dialpad_key.xml
+SHA1-Digest-Manifest: 4KXLI7XJ6V1khhyAJIKIf3TpsDY=
+
+Name: res/layout/fake_phone_activity.xml
+SHA1-Digest-Manifest: vSqKlyJdyn6gh8ZVockndV4OyUA=
+
+Name: res/drawable-ldrtl-xhdpi-v4/ic_btn_back.png
+SHA1-Digest-Manifest: dvJPG/q1QBKCyF32qVkmN9+uRfc=
+
+Name: res/layout/edit_pin_dialog.xml
+SHA1-Digest-Manifest: 8LdaHnSRgpOSO6ImdtBGsem4GH0=
+
+Name: res/drawable-xxhdpi-v4/ic_incall_plus_image.png
+SHA1-Digest-Manifest: ulPa8mnouqkFAUzuV/+q+h05+Tk=
+
+Name: res/xml/preferred_network_type_3g_cm.xml
+SHA1-Digest-Manifest: J/3uDtd0e/i1mHGJhEt/yuiyJjo=
+
+Name: res/xml/miui_call_feature_setting.xml
+SHA1-Digest-Manifest: rnqosKpXPNFiBZnGM6jORX08cG8=
+
+Name: res/layout/edit_custom_location_layout.xml
+SHA1-Digest-Manifest: ep8H6KInl0T4fKKK/7VxkhWrjhY=
+
+Name: res/xml/ivr_parameter_settings.xml
+SHA1-Digest-Manifest: Ll54/hImbks1sIuJX6qtj92IHHY=
+
+Name: res/xml/sim_service.xml
+SHA1-Digest-Manifest: QxbKLHJYpiEakEblipG5r6Nmq/8=
+
+Name: res/drawable-xxhdpi-v4/ic_incall_star_image.png
+SHA1-Digest-Manifest: VwRUSiP3eLI1b3HLLPeqHxbx46A=
+
+Name: res/drawable-xxhdpi-v4/icon_stat_sys_phone_call_forward.png
+SHA1-Digest-Manifest: wevVLQ/X+atEw71Wus7nqZTDLck=
+
+Name: res/xml/miui_cdma_options.xml
+SHA1-Digest-Manifest: w1x4UUxflmaGC7PU9+UsIfLexXM=
+
+Name: res/drawable-ldrtl-xhdpi-v4/stat_sys_phone_call_on_hold.png
+SHA1-Digest-Manifest: FQzyJDoccILqKx4veDgG4Qx2hgE=
+
+Name: res/drawable-xhdpi-v4/green_divider.png
+SHA1-Digest-Manifest: k+vbKsz2iITOOTdNPz9NeOOOEds=
+
+Name: res/anim/dialpad_slide_out_bottom.xml
+SHA1-Digest-Manifest: Y1ZuFerxdURHYW+Z5mDcDNfMSys=
+
+Name: res/layout/dialpad_key_zero.xml
+SHA1-Digest-Manifest: 4iAEKGN/nuXQDdBhhpBBT/d7AMI=
+
+Name: res/drawable/msim_null_drawable.xml
+SHA1-Digest-Manifest: DUlUe1cnZ3GqwXb1sh0WdRH2LNU=
+
+Name: res/drawable/ic_back_arrow.xml
+SHA1-Digest-Manifest: OzkqLTQaxANH+Vr6uKX/DwSqkGs=
+
+Name: res/drawable/floating_action_button.xml
+SHA1-Digest-Manifest: h8FpXSweHAcZ7zGsJS/WyX5SD/8=
+
+Name: res/layout/dialpad_key.xml
+SHA1-Digest-Manifest: a5Sp0Nu3XiEktvuEnYI6dj2rCM0=
+
+Name: res/xml/preferred_network_type_lte_cm.xml
+SHA1-Digest-Manifest: a9rx06m+4p8E5+baTZnb3whwr0U=
+
+Name: res/drawable/incall_dialer_panel_button_bg.xml
+SHA1-Digest-Manifest: ZdtJTcYfBtkkP/GS/+/YhErsPRg=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_contacts.png
+SHA1-Digest-Manifest: F73UV8TJMFd9eF0xc25zcKjRWsE=
+
+Name: res/xml/cdma_options.xml
+SHA1-Digest-Manifest: kikKEs1+umsYy7if8jl04cJ7eak=
+
+Name: res/xml/functionindex.xml
+SHA1-Digest-Manifest: Jfd8H2JyXCT+J4pRImD7QYIXJGM=
+
+Name: res/xml/sip_advanced_edit.xml
+SHA1-Digest-Manifest: wUcHxHdZ/+UKLH1uhLwp2PhoQoA=
+
+Name: res/drawable-xxhdpi-v4/ic_signal_wifi_4_bar_24dp.png
+SHA1-Digest-Manifest: XlteOxObA5impccS3dcibsP8ZSc=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/small_sim_icon_slot_2.png
+SHA1-Digest-Manifest: eL749+UH0s1Rx87N5EeD5ndHzwk=
+
+Name: res/drawable-xhdpi-v4/ic_see_contacts_holo_dark.png
+SHA1-Digest-Manifest: EqI0LZY9EaDxdY23/9k8fgRCGhU=
+
+Name: res/xml/auto_answer_setting.xml
+SHA1-Digest-Manifest: LgWKp9qBN4ttOhJ1enK1ghGzPy0=
+
+Name: res/drawable-xxhdpi-v4/action_button_clear_normal.png
+SHA1-Digest-Manifest: ATWa3RWrdWz1f4N/aTbXgiut7EY=
+
+Name: res/drawable-xxhdpi-v4/fab_ic_call.png
+SHA1-Digest-Manifest: 7posNax/ysadXzTL1vuGIKQpkuI=
+
+Name: res/drawable/preference_background.xml
+SHA1-Digest-Manifest: bJjgoH+QZzWLiIzWpdE+rSN4A8w=
+
+Name: res/layout/sip_settings_ui.xml
+SHA1-Digest-Manifest: XspSbpXVI/gJgQJ2EP9ZAjJUca4=
+
+Name: res/layout/simple_list_item_2.xml
+SHA1-Digest-Manifest: pDBXIbMp5KBDOmvnh76zGUpM2cE=
+
+Name: res/xml/call_advanced_setting.xml
+SHA1-Digest-Manifest: hYKurQ+0N2+b3Zlqi+0rKdJD94o=
+
+Name: res/drawable-xxhdpi-v4/emergency_dial_action_pressed.png
+SHA1-Digest-Manifest: jy7vI6lrb74hh5Y7Xh8YeZehSYI=
+
+Name: res/drawable-xxhdpi-v4/ic_emergency_callback_mode.png
+SHA1-Digest-Manifest: ovFEXCe4zW6H7v8Md8XGIK9lqdg=
+
+Name: res/xml/miui_callforward_options.xml
+SHA1-Digest-Manifest: bvrLyIjVE+Ef2QKbaolXGS6Gk7w=
+
+Name: res/drawable-xxhdpi-v4/bg_emergency_back.png
+SHA1-Digest-Manifest: LCQlLfEQspi2qBNBChtBvA6kdqQ=
+
+Name: res/layout/miui_emergency_dialer.xml
+SHA1-Digest-Manifest: gtCG4kTn78HatITdZkoweLm0lTg=
+
+Name: res/xml/cdma_call_privacy.xml
+SHA1-Digest-Manifest: 1sUOq0jYSsLwFYmXxK5tYr//Qno=
+
+Name: res/drawable-xxhdpi-v4/ic_see_contacts.png
+SHA1-Digest-Manifest: na7/qQYRPPY9uSAmBfl/LeNCVxc=
+
+Name: res/layout/emergency_dialpad.xml
+SHA1-Digest-Manifest: Y0/yGUSvVTo1jpCu8lJpP/v4iw8=
+
+Name: res/xml/miui_sip_setting.xml
+SHA1-Digest-Manifest: n5qBJax40G9+eII2iWaAlbPNOaA=
+
+Name: res/xml/preferred_network_type_lte_cu.xml
+SHA1-Digest-Manifest: ttD0sMnN4ZIlM6knljwcUS375b8=
+
+Name: res/anim/dialpad_slide_in_right.xml
+SHA1-Digest-Manifest: 8mgPrp58JupB3wry9CvNmXItoQk=
+
+Name: res/xml/phone_account_selection.xml
+SHA1-Digest-Manifest: DKwa4UnIRMX8U8RNjtXCsv8WvbM=
+
+Name: res/layout/emergency_dialer.xml
+SHA1-Digest-Manifest: FZr4UrZ5T3T3NW75z/N2FHBMAjM=
+
+Name: res/menu/respond_via_message_settings_menu.xml
+SHA1-Digest-Manifest: lFhCWBHcKWCxY2ie/E+dOFaZTGg=
+
+Name: res/drawable-xhdpi-v4/ic_active_state_dialer_holo_dark.png
+SHA1-Digest-Manifest: YzyN3lrM/hKcfGsSl+1oFLlEa5o=
+
+Name: res/drawable-xxhdpi-v4/ic_arrow_back_24dp.png
+SHA1-Digest-Manifest: /FFV4FHLJUGTQZxXfzX9QIIyqtQ=
+
+Name: res/xml/preferred_network_type_mtk.xml
+SHA1-Digest-Manifest: IItcWdcRuaMXB+kHyz7UIu6mSzs=
+
+Name: res/drawable-xxhdpi-v4/big_sim_icon_slot_2.png
+SHA1-Digest-Manifest: RXDRJP1bGJn91v9+XBx2Zny/oCQ=
+
+Name: res/layout/dialpad_key_star.xml
+SHA1-Digest-Manifest: LT9JOzLaZdHUgqpjKQCxSQq8F/Y=
+
+Name: res/drawable-xxhdpi-v4/icon_stat_sys_phone_call_voicemail.png
+SHA1-Digest-Manifest: hys3vzwE46xMD/6YsK/UfteY1SI=
+
+Name: res/layout/get_pin2_screen.xml
+SHA1-Digest-Manifest: /IQRQvDq3zz1m+zEmDaoQ6LHyRw=
+

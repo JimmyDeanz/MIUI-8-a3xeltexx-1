@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">%d个通话录音已完成</item>
+        <item quantity="one">%d个通话录音已完成</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/call_card" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.incallui.view.AnimationCircleLayout android:id="@id/avatar_layer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/avatar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <View android:id="@id/speak_on_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.incallui.view.AnimationCircleLayout>
+    <fragment android:name="com.android.incallui.VideoCallFragment" android:id="@id/videoCallFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/small_avatar_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/small_avatar" android:visibility="gone" android:layout_width="@dimen/incoming_avatar_diameter" android:layout_height="@dimen/incoming_avatar_diameter" android:layout_marginTop="@dimen/call_info_avatar_margin_top" android:contentDescription="@null" />
+        <ImageView android:id="@id/verify_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/small_avatar" android:layout_alignBottom="@id/small_avatar" />
+    </RelativeLayout>
+    <include android:id="@id/single_call_info" layout="@layout/single_call_info" />
+</FrameLayout>

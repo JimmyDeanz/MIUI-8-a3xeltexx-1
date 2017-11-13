@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s मिनिटांसाठी डेटा कनेक्शन नाही</item>
+        <item quantity="one">%s मिनिटासाठी डेटा कनेक्शन नाही</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">%s मिनिटांसाठी फोन आणीबाणी कॉलबॅक मोड मध्ये असेल. या मोडमध्ये असताना डेटा कनेक्शन वापरणार्‍या कोणत्याही अॅप्सचा वापर केला जाऊ शकत नाही. आपण आता बाहेर पडू इच्छिता का?</item>
+        <item quantity="one">%s मिनिटासाठी फोन आणीबाणी कॉलबॅक मोड मध्ये असेल. या मोडमध्ये असताना डेटा कनेक्शन वापरणार्‍या कोणत्याही अॅप्सचा वापर केला जाऊ शकत नाही. आपण आता बाहेर पडू इच्छिता का?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">आणीबाणी कॉलबॅक मोडमध्ये असताना निवडलेली क्रिया उपलब्ध नाही. %s मिनिटांसाठी फोन या मोड मध्ये असेल. आपण आता बाहेर पडू इच्छिता का?</item>
+        <item quantity="one">आणीबाणी कॉलबॅक मोडमध्ये असताना निवडलेली क्रिया उपलब्ध नाही. %s मिनिटासाठी फोन या मोड मध्ये असेल. आपण आता बाहेर पडू इच्छिता का?</item>
+    </plurals>
+</resources>

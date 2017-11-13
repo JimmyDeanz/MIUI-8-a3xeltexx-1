@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Ni podatkovne povezave za %s min</item>
+        <item quantity="one">Ni podatkovne povezave za %s min</item>
+        <item quantity="two">Ni podatkovne povezave za %s min</item>
+        <item quantity="few">Ni podatkovne povezave za %s min</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefon bo načinu nujnega povratnega klica za %smin. Medtem ni možno uporabljati aplikacij ki potrebujejo podatkovno povezavo. Želite izhod?</item>
+        <item quantity="one">Telefon bo načinu nujnega povratnega klica za %smin. Medtem ni možno uporabljati aplikacij ki potrebujejo podatkovno povezavo. Želite izhod?</item>
+        <item quantity="two">Telefon bo načinu nujnega povratnega klica za %smin. Medtem ni možno uporabljati aplikacij ki potrebujejo podatkovno povezavo. Želite izhod?</item>
+        <item quantity="few">Telefon bo načinu nujnega povratnega klica za %smin. Medtem ni možno uporabljati aplikacij ki potrebujejo podatkovno povezavo. Želite izhod?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">To opravilo ni dostopno v načinu nujnega povratnega klica. Telefon bo v tem načinu %smin. Želite izhod?</item>
+        <item quantity="one">To opravilo ni dostopno v načinu nujnega povratnega klica. Telefon bo v tem načinu %smin. Želite izhod?</item>
+        <item quantity="two">To opravilo ni dostopno v načinu nujnega povratnega klica. Telefon bo v tem načinu %smin. Želite izhod?</item>
+        <item quantity="few">To opravilo ni dostopno v načinu nujnega povratnega klica. Telefon bo v tem načinu %smin. Želite izhod?</item>
+    </plurals>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.JeejenCallCardWidget android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/jeejen_callcardwidget_incall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <TextView android:id="@id/jeejen_incall_elapsed_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/JeejenBigTextStyle" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip">
+            <TextView android:ellipsize="end" android:id="@id/jeejen_incall_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/jeejen_name_max_width" style="@style/JeejenCommonTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/jeejen_incall_phone_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/jeejen_name_max_width" style="@style/JeejenCommonTextStyle" />
+            <EditText android:id="@id/jeejen_incall_dialer_digits" android:background="@null" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scrollHorizontally="true" android:freezesText="true" style="@style/JeejenCommonTextStyle" />
+            <View android:id="@id/jeejen_incall_elapsed_time_splitter" android:background="@drawable/jeejen_card_splitter_bkgnd" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/jeejen_card_elapsed_time_splitter_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+            <TextView android:id="@id/jeejen_incall_district" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/JeejenCommonTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/jeejen_callcardwidget_incomingcall" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="16.0dip">
+            <TextView android:id="@id/jeejen_incoming_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/JeejenBigTextStyle" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.0dip">
+            <TextView android:ellipsize="end" android:id="@id/jeejen_incoming_phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/jeejen_name_max_width" style="@style/JeejenCommonTextStyle" />
+            <View android:id="@id/jeejen_incoming_elapsed_time_splitter" android:background="@drawable/jeejen_card_splitter_bkgnd" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="@dimen/jeejen_card_elapsed_time_splitter_height" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" />
+            <TextView android:id="@id/jeejen_incoming_district" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/JeejenCommonTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.incallui.JeejenCallCardWidget>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>عالمی</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_world_mode">
+        <item>10</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>نیٹ ورک ڈیفالٹ</item>
+        <item>نمبر چھپائیں</item>
+        <item>نمبر دکھائیں</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA، LTE، CDMA، EvDo GSM/WCDMA</item>
+        <item>TD-SCDMA، GSM/WCDMA، CDMA اور EvDo</item>
+        <item>TD-SCDMA، GSM/WCDMA اور LTE</item>
+        <item>TD-SCDMA، WCDMA اور LTE</item>
+        <item>TD-SCDMA، GSM/WCDMA</item>
+        <item>TD-SCDMA، GSM اور LTE</item>
+        <item>TD-SCDMA اور GSM</item>
+        <item>TD-SCDMA اور LTE</item>
+        <item>TD-SCDMA اور WCDMA</item>
+        <item>صرف TD-SCDMA</item>
+        <item>LTE/WCDMA</item>
+        <item>صرف LTE</item>
+        <item>LTE/GSM/CDMA آٹو (PRL)</item>
+        <item>LTE/GSM آٹو (PRL)</item>
+        <item>LTE/CDMA آٹو (PRL)</item>
+        <item>GSM/CDMA آٹو (PRL)</item>
+        <item>صرف EvDo</item>
+        <item>صرف CDMA</item>
+        <item>CDMA آٹو (PRL)</item>
+        <item>GSM آٹو (PRL)</item>
+        <item>صرف WCDMA</item>
+        <item>صرف GSM</item>
+        <item>WCDMA ترجیح شدہ</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>انگریزی</item>
+        <item>فرانسیسی</item>
+        <item>ہسپانوی</item>
+        <item>جاپانی</item>
+        <item>کوریائی</item>
+        <item>چینی</item>
+        <item>عبرانی</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>صرف ہوم</item>
+        <item>خودکار</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY بند</item>
+        <item>TTY پورا</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>حسب معمول</item>
+        <item>طویل</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>آف</item>
+        <item>رومنگ کال پر پابندی</item>
+        <item>بین الاقوامی کال پر پابندی</item>
+        <item>آؤٹ گوئنگ کال پر پابندی</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>آف</item>
+        <item>رومنگ</item>
+        <item>سبھی</item>
+    </string-array>
+    <string-array name="call_barring_incoming_values">
+        <item>-2</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+</resources>

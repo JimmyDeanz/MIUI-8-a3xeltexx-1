@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.JeejenInCallControlsWidget android:orientation="vertical" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/jeejen_incall_btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/jeejen_end_call" android:background="@drawable/jeejen_end_call_button_bkgnd" android:layout_width="0.0dip" android:text="@string/jeejen_end_call_text" android:layout_weight="2.0" style="@style/JeejenCommonButtonStyle" />
+        <ToggleButton android:id="@id/jeejen_toggle_dialpad" android:background="@drawable/jeejen_toggle_dialpad_button_bkgnd" android:layout_width="0.0dip" android:textOn="@string/jeejen_toggle_dialpad_text" android:textOff="@string/jeejen_toggle_dialpad_text" android:layout_weight="1.0" style="@style/JeejenCommonButtonStyle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/jeejen_dialpadFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/jeejen_incall_btn_layout" />
+</com.android.incallui.JeejenInCallControlsWidget>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Nu există conexiune de date pentru %s minute</item>
+        <item quantity="one">Nu există conexiune de date pentru %s minut</item>
+        <item quantity="few">Nu există conexiune de date pentru %s minute</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonul va fi în modul de Apel de urgență pentru %s minute. În timp ce este activat acest mod aplicațiile care utilizează o conexiune de date nu pot fi folosite. Doriți să ieșiți acum?</item>
+        <item quantity="one">Telefonul va fi în modul de Apel de urgență pentru %s minut. În timp ce este activat acest mod aplicațiile care utilizează o conexiune de date nu pot fi folosite. Doriți să ieșiți acum?</item>
+        <item quantity="few">Telefonul va fi în modul de Apel de urgență pentru %s minute. În timp ce este activat acest mod aplicațiile care utilizează o conexiune de date nu pot fi folosite. Doriți să ieșiți acum?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Acțiunea selectată nu este disponibilă în timp ce este activat modul de Apel de urgență. Telefonul va fi în acest mod pentru %s minute. Doriți să ieșiți acum?</item>
+        <item quantity="one">Acțiunea selectată nu este disponibilă în timp ce este activat modul de Apel de urgență. Telefonul va fi în acest mod pentru %s minut. Doriți să ieșiți acum?</item>
+        <item quantity="few">Acțiunea selectată nu este disponibilă în timp ce este activat modul de Apel de urgență. Telefonul va fi în acest mod pentru %s minute. Doriți să ieșiți acum?</item>
+    </plurals>
+</resources>

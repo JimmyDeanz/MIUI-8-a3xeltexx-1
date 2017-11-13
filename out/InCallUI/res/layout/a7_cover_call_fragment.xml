@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.view.VerticalSlideLayout android:id="@id/slide_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/a7_cover_phone_name_text_size" android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/phone_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:marqueeRepeatLimit="marquee_forever" android:fontFamily="miui-bitmap">
+        <requestFocus />
+    </TextView>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/answer_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7_answer_indicator" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/incoming_operator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7_incoming_operator" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/reject_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7_reject_indicator" />
+</com.android.incallui.view.VerticalSlideLayout>

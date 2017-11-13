@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/button_inset_horizontal_material_background" android:insetRight="@dimen/button_inset_horizontal_material_background" android:insetTop="@dimen/button_inset_vertical_material_background" android:insetBottom="@dimen/button_inset_vertical_material_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:tint="#1a000000" android:shape="rectangle">
+        <corners android:radius="1.0dip" />
+        <stroke android:width="1.0px" android:color="#99fafafa" />
+        <padding android:left="@dimen/button_padding_horizontal_material_background" android:top="@dimen/button_padding_vertical_material_background" android:right="@dimen/button_padding_horizontal_material_background" android:bottom="@dimen/button_padding_vertical_material_background" />
+    </shape>
+</inset>

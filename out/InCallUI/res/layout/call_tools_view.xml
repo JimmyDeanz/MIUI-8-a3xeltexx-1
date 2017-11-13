@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/inCallToolPanelContent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/inCallToolsPanelTop" android:layout_marginTop="@dimen/call_tools_top_panel_margin_top" android:layout_marginBottom="@dimen/call_tools_top_panel_margin_bottom" style="@style/Miui.TableRow">
+        <LinearLayout android:orientation="vertical" style="@style/Miui.TableColumn">
+            <ToggleButton android:id="@id/muteButton" android:checked="false" android:textOn="@string/onscreen_mute_text" android:textOff="@string/onscreen_mute_text" android:drawableTop="@drawable/ic_in_call_touch_mute" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <ToggleButton android:id="@id/holdButton" android:checked="false" android:textOn="@string/onscreen_hold_text" android:textOff="@string/onscreen_hold_text" android:drawableTop="@drawable/ic_in_call_touch_round_hold" style="@style/Miui.Button.Tool" />
+            <Button android:id="@id/swapButton" android:visibility="gone" android:text="@string/onscreen_swap_calls_text" android:drawableTop="@drawable/ic_in_call_touch_swap_call" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/notesButton" android:visibility="visible" android:text="@string/onscreen_note_calls_text" android:drawableTop="@drawable/ic_in_call_touch_notes" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/inCallToolsPanelBottom" android:layout_marginBottom="@dimen/call_tools_bottom_panel_margin_bottom" style="@style/Miui.TableRow">
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/contactButton" android:visibility="gone" android:text="@string/contacts_icon_label" android:drawableTop="@drawable/ic_in_call_touch_contact" style="@style/Miui.Button.Tool" />
+            <Button android:enabled="false" android:id="@id/switchToVideoButton" android:visibility="gone" android:text="@string/onscreen_change_to_video" android:drawableTop="@drawable/ic_in_call_touch_change_to_video" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout style="@style/Miui.TableColumn">
+            <Button android:id="@id/addButton" android:text="@string/onscreen_add_call_text" android:drawableTop="@drawable/ic_in_call_touch_add_call" style="@style/Miui.Button.Tool" />
+            <Button android:id="@id/mergeButton" android:visibility="gone" android:text="@string/onscreen_merge_calls_text" android:drawableTop="@drawable/ic_in_call_touch_merge" style="@style/Miui.Button.Tool" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" style="@style/Miui.TableColumn">
+            <ToggleButton android:id="@id/recordStartButton" android:checked="false" android:textOn="@string/onscreen_call_record" android:textOff="@string/onscreen_call_record" android:drawableTop="@drawable/ic_in_call_touch_start_record" style="@style/Miui.Button.Tool.ToggleButton" />
+            <TextView android:id="@id/record_start_toggle_text" android:visibility="gone" android:text="@string/onscreen_call_record" style="@style/Miui.Button.Tool.ToggleText" />
+            <Chronometer android:textSize="@dimen/call_tools_toggle_button_text_size" android:textColor="@color/call_tools_call_record_timer_text_color" android:gravity="center" android:id="@id/callRecordTimer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:format="@string/call_record_button_label" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

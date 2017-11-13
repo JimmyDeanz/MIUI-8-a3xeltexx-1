@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="last_num_days">
+        <item quantity="other">Апошнія %d дзён</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d секунд(ы)</item>
+        <item quantity="one">1 second</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d хв.</item>
+        <item quantity="one">1 хвіліна</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d гадз.</item>
+        <item quantity="one">1 гадзіна</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Даступны сеткі Wi-Fi</item>
+        <item quantity="one">Даступна сетка Wi-Fi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Адкрыць даступныя сеткі Wi-Fi</item>
+        <item quantity="one">Адкрыць даступныя сеткі Wi-Fi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d з %2$d</item>
+        <item quantity="one">1 супадзенне.</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Try again in %d seconds</item>
+        <item quantity="one">Паспрабуйце яшчэ раз праз 1 секунду.</item>
+    </plurals>
+    <plurals name="num_seconds_ago">
+        <item quantity="other">%d сек. таму</item>
+        <item quantity="one">1 секунду таму</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d хв. таму</item>
+        <item quantity="one">1 minute ago</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d гадз. таму</item>
+        <item quantity="one">1 гадзіну таму</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d сут. таму</item>
+        <item quantity="one">Учора</item>
+    </plurals>
+    <plurals name="in_num_seconds">
+        <item quantity="other">праз %d сек.</item>
+        <item quantity="one">Праз 1 секунду</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">праз %d хв.</item>
+        <item quantity="one">Праз 1 хв</item>
+    </plurals>
+    <plurals name="in_num_hours">
+        <item quantity="other">праз %d гадз.</item>
+        <item quantity="one">Праз 1 гадзіну</item>
+    </plurals>
+    <plurals name="in_num_days">
+        <item quantity="other">праз %d сут.</item>
+        <item quantity="one">Заўтра</item>
+    </plurals>
+    <plurals name="abbrev_num_seconds_ago">
+        <item quantity="other">%d сек. таму</item>
+        <item quantity="one">1 сек. таму</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d хв. таму</item>
+        <item quantity="one">1 хв. таму</item>
+    </plurals>
+    <plurals name="abbrev_num_hours_ago">
+        <item quantity="other">%d гадз. таму</item>
+        <item quantity="one">1 гадзіну таму</item>
+    </plurals>
+    <plurals name="abbrev_num_days_ago">
+        <item quantity="other">%d сут. таму</item>
+        <item quantity="one">Учора</item>
+    </plurals>
+    <plurals name="abbrev_in_num_seconds">
+        <item quantity="other">праз %d с</item>
+        <item quantity="one">праз 1 с</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">Праз %d хв.</item>
+        <item quantity="one">Праз 1 хв</item>
+    </plurals>
+    <plurals name="abbrev_in_num_hours">
+        <item quantity="other">праз %d гадз.</item>
+        <item quantity="one">Праз 1 гадзіну</item>
+    </plurals>
+    <plurals name="abbrev_in_num_days">
+        <item quantity="other">праз %d сут.</item>
+        <item quantity="one">Заўтра</item>
+    </plurals>
+    <plurals name="tw_clipboard_files">
+        <item quantity="other">Файлаў: %d</item>
+        <item quantity="one">1 файл</item>
+    </plurals>
+</resources>

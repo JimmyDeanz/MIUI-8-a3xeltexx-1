@@ -1,0 +1,17 @@
+*** ./smali/android/graphics/Typeface.smali	2017-10-30 11:17:01.512082829 +0100
+--- /home/mcfy/bin/device/temp/new_smali/framework.jar.out/./smali/android/graphics/Typeface.smali	2017-10-30 11:07:34.291565831 +0100
+***************
+*** 1058,1063 ****
+--- 1058,1069 ----
+      .param p0, "family"    # Landroid/graphics/FontListParser$Family;
+  
+      .prologue
++     invoke-static {p0}, Landroid/graphics/TypefaceHook;->makeFontFamily(Landroid/graphics/FontListParser$Family;)Landroid/graphics/FontFamily;
++ 
++     move-result-object v0
++ 
++     return-object v0
++ 
+      new-instance v1, Landroid/graphics/FontFamily;
+  
+      iget-object v3, p0, Landroid/graphics/FontListParser$Family;->lang:Ljava/lang/String;

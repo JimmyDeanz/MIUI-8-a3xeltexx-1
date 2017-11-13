@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emailAddressTypes">
+        <item>Shtëpi</item>
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>Personalizo</item>
+    </string-array>
+    <string-array name="imProtocols">
+        <item>AIM</item>
+        <item>Windows Live</item>
+        <item>Rezultatet e Yahoo</item>
+        <item>Skype</item>
+        <item>QQ</item>
+        <item>Google Talk</item>
+        <item>ICQ</item>
+        <item>Jabber</item>
+    </string-array>
+    <string-array name="organizationTypes">
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>Personalizo</item>
+    </string-array>
+    <string-array name="phoneTypes">
+        <item>Shtëpi</item>
+        <item>Celulari</item>
+        <item>Punë</item>
+        <item>Faksi në zyrë</item>
+        <item>Faksi në shtëpi</item>
+        <item>Biperi</item>
+        <item>Tjetër</item>
+        <item>Personalizo</item>
+    </string-array>
+    <string-array name="postalAddressTypes">
+        <item>Shtëpi</item>
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>Personalizo</item>
+    </string-array>
+    <string-array name="special_locale_codes">
+        <item>ar_EG</item>
+        <item>my_MM</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>العربية</item>
+        <item>မြန်မာ (Unicode)</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+    <array name="wfcOperatorErrorAlertMessages" />
+    <array name="wfcOperatorErrorNotificationMessages" />
+    <array name="fingerprint_acquired_vendor" />
+    <array name="fingerprint_error_vendor" />
+    <string-array name="imAddressTypes">
+        <item>Shtëpi</item>
+        <item>Punë</item>
+        <item>Tjetër</item>
+        <item>Personalizo</item>
+    </string-array>
+    <array name="allowedOnDataDisabled" />
+    <array name="captivePortalAllowedNetworkTypes" />
+    <integer-array name="config_minimumExpressiveBrightnessValues">
+        <item>15</item>
+        <item>20</item>
+        <item>27</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevels">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>50</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>9999</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisValues">
+        <item>20</item>
+        <item>50</item>
+        <item>80</item>
+        <item>143</item>
+        <item>230</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLevels">
+        <item>0</item>
+        <item>6</item>
+        <item>50</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>4999</item>
+        <item>5000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessValues">
+        <item>20</item>
+        <item>20</item>
+        <item>80</item>
+        <item>143</item>
+        <item>160</item>
+        <item>260</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevels">
+        <item>0</item>
+        <item>15</item>
+        <item>15</item>
+        <item>150</item>
+        <item>1500</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisValues">
+        <item>20</item>
+        <item>20</item>
+        <item>25</item>
+        <item>80</item>
+        <item>143</item>
+        <item>200</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisLevelsForEbookOnly">
+        <item>0</item>
+        <item>0</item>
+        <item>5</item>
+        <item>50</item>
+        <item>1000</item>
+        <item>1000</item>
+        <item>9999</item>
+        <item>10000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLowHysteresisValuesForEbookOnly">
+        <item>10</item>
+        <item>30</item>
+        <item>40</item>
+        <item>82</item>
+        <item>230</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessLevelsForEbookOnly">
+        <item>0</item>
+        <item>6</item>
+        <item>50</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>4999</item>
+        <item>5000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessValuesForEbookOnly">
+        <item>10</item>
+        <item>10</item>
+        <item>40</item>
+        <item>82</item>
+        <item>140</item>
+        <item>260</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisLevelsForEbookOnly">
+        <item>0</item>
+        <item>15</item>
+        <item>15</item>
+        <item>150</item>
+        <item>1500</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>39999</item>
+        <item>40000</item>
+    </integer-array>
+    <integer-array name="config_dynamicAutoBrightnessHighHysteresisValuesForEbookOnly">
+        <item>10</item>
+        <item>10</item>
+        <item>12</item>
+        <item>40</item>
+        <item>82</item>
+        <item>200</item>
+        <item>300</item>
+        <item>300</item>
+        <item>400</item>
+    </integer-array>
+    <array name="hideApnBlackList" />
+    <string-array name="shouldNotWriteMessage">
+        <item>com.android.mms</item>
+        <item>com.samsung.android.messaging</item>
+        <item>com.tmobile.vvm.application</item>
+        <item>com.metropcs.service.vvm</item>
+        <item>com.android.phone</item>
+        <item>com.android.bluetooth</item>
+        <item>com.samsung.vvm</item>
+        <item>de.telekom.mds.mbp</item>
+        <item>com.isis.mclient.atnt.activity</item>
+        <item>com.isis.mclient.tmobile.activity</item>
+        <item>com.isis.mclient.verizon.activity</item>
+        <item>com.isis.mclient.atnt.isistest</item>
+        <item>com.isis.mclient.tmobile.isistest</item>
+        <item>com.isis.mclient.verizon.isistest</item>
+        <item>com.cequint.ecid</item>
+        <item>com.att.eptt</item>
+        <item>cn.cj.pe</item>
+        <item>cn.emagsoftware.gamehall</item>
+        <item>com.iflytek.cmcc</item>
+        <item>com.autonavi.cmccmap</item>
+        <item>com.aspire.mm</item>
+        <item>com.asiainfo.android</item>
+        <item>pl.tmobile.vpabx</item>
+        <item>com.samsung.android.coreapps</item>
+        <item>com.chinamobile.cmccwifi</item>
+        <item>com.ophone.reader.ui</item>
+        <item>com.wsandroid.suite.vodaemea</item>
+        <item>com.samsung.android.app.sreminder</item>
+        <item>com.sec.android.app.mt</item>
+        <item>cmccwm.mobilemusic</item>
+        <item>com.samsung.android.communicationservice</item>
+    </string-array>
+</resources>

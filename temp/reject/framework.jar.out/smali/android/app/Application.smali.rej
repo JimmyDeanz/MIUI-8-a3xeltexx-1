@@ -1,0 +1,29 @@
+*** Application.smali	2017-10-30 11:16:29.640262855 +0100
+--- Application.smali	2017-10-30 11:07:16.271690377 +0100
+***************
+*** 526,534 ****
+  .end method
+  
+  .method public onCreate()V
+!     .locals 0
+  
+      .prologue
+      return-void
+  .end method
+  
+--- 526,540 ----
+  .end method
+  
+  .method public onCreate()V
+!     .locals 1
+  
+      .prologue
++     invoke-static {}, Lcom/miui/whetstone/app/WhetstoneAppManager;->getInstance()Lcom/miui/whetstone/app/WhetstoneAppManager;
++ 
++     move-result-object v0
++ 
++     invoke-virtual {v0, p0}, Lcom/miui/whetstone/app/WhetstoneAppManager;->attach(Landroid/content/Context;)V
++ 
+      return-void
+  .end method
+  

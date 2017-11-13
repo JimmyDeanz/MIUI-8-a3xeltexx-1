@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miui.ivr.ui.MenuListItem style="@miui:style/Widget.ListView.Item.SingleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@miui:style/TextAppearance.Medium.Inverse" android:textColor="@miui:color/secondary_text_dark" android:ellipsize="end" android:layout_gravity="center|left" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@miui:style/TextAppearance.Small.Inverse" android:textColor="@miui:color/secondary_text_dark" android:layout_gravity="center|right" android:id="@id/subCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/expand_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ivr_menu_list_item_close" />
+    </LinearLayout>
+</com.miui.ivr.ui.MenuListItem>

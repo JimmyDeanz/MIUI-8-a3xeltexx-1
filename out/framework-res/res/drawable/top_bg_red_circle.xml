@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/top_bg_red_circle_item">
+        <shape android:shape="oval">
+            <size android:height="@dimen/multiwindow_remove_red_circle_height" android:width="@dimen/multiwindow_remove_red_circle_height" />
+            <solid android:color="@color/multiwindow_minimized_icon_remove_bg_red_color" />
+        </shape>
+    </item>
+</layer-list>

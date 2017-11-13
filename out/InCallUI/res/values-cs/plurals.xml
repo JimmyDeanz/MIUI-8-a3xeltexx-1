@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">%d Hovory nahrány.</item>
+        <item quantity="one">Hovor nahrán.</item>
+        <item quantity="few">%d Hovory nahrány.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:id="@id/inCallToolPanelContent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/extension_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/call_extension_conference_mode" android:scaleType="center" />
+    <TextView android:textAppearance="@style/TextAppearance.Name.Extension" android:ellipsize="end" android:id="@id/extension_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_extension_conference_mode" android:singleLine="true" />
+</LinearLayout>

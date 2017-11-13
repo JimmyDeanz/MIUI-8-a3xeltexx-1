@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_button_margin">20.0dip</dimen>
+    <dimen name="dialpadAdditionalButtons_padding_bottom">45.0dip</dimen>
+    <dimen name="dialpad_button_text_width">106.66dip</dimen>
+    <dimen name="dial_panel_margin">21.659973dip</dimen>
+    <dimen name="dial_panel_button_height">68.0dip</dimen>
+    <dimen name="dial_panel_button_line_width">320.0dip</dimen>
+</resources>

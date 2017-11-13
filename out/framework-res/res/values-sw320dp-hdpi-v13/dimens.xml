@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_large_icon_circle_padding">10.0dip</dimen>
+    <dimen name="mdm_app_icon_size">53.0dip</dimen>
+    <dimen name="notification_big_layout_top_margin">11.5dip</dimen>
+</resources>

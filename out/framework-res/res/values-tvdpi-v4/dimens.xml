@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="multiwindow_focusline_thickness">6.0dip</dimen>
+    <dimen name="multiwindow_minimized_width">72.0dip</dimen>
+    <dimen name="multiwindow_minimized_height">72.0dip</dimen>
+    <dimen name="multiwindow_titlebar_height">0.0dip</dimen>
+    <dimen name="multiwindow_minimize_inner_icon_radius">31.0dip</dimen>
+    <dimen name="multiwindow_app_icon">72.0dip</dimen>
+    <dimen name="mw_window_app_icon_default_size">72.0dip</dimen>
+    <dimen name="multiwindow_frame_out_shadow_size">2.0dip</dimen>
+    <dimen name="multiwindow_floating_mBorderPaintInner">3.0dip</dimen>
+    <dimen name="multiwindow_remove_layout_height">64.0dip</dimen>
+    <dimen name="multiwindow_pen_window_show_boundaryY">40.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_buttons_height">37.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_padding">7.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_ripple_size">84.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_width">44.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_height">44.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_margin">12.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_press_width">42.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_press_height">42.0dip</dimen>
+    <dimen name="multiwindow_floating_menu_button_press_radius">23.0dip</dimen>
+    <dimen name="multiwindow_trash_text_size">15.0dip</dimen>
+    <dimen name="multiwindow_trash_text_margin">-3.0dip</dimen>
+    <dimen name="controller_btn_bg_left_margin">22.0dip</dimen>
+    <dimen name="controller_btn_bg_right_margin">22.0dip</dimen>
+    <dimen name="center_bar_guide_width">140.0dip</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="resolver_max_width">400.0dip</dimen>
+    <dimen name="tw_remote_share_column_width">98.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_page_height">178.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_page_singleline_height">110.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_page_doubleline_app_label_height">214.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_list_item_minwidth">160.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_list_item_text_minHeight">21.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_grid_height">186.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_grid_padding_top">6.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_grid_padding_start">36.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_grid_padding_end">36.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_grid_padding_bottom">0.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_grid_item_padding_top">9.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_height">80.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_padding_top">7.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_padding_bottom">9.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_padding_horizontal">5.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_defaulticon_width">130.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_defaulticon_size">40.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_defaulttext_width">270.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_toppanel_defaulttext_padding_end">56.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_navi_height">25.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_navi_bottom_padding">0.0dip</dimen>
+    <dimen name="tw_resolver_pagemode_bottompanel_item_width">120.0dip</dimen>
+</resources>

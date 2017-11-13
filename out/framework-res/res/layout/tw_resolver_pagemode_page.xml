@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/tw_resolver_pagemode_page_list" android:background="@color/tw_resolver_bg_color" android:paddingLeft="@dimen/tw_resolver_pagemode_grid_padding_start" android:paddingTop="@dimen/tw_resolver_pagemode_grid_padding_top" android:paddingRight="@dimen/tw_resolver_pagemode_grid_padding_end" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/tw_resolver_pagemode_grid_spacing_horizontal" android:verticalSpacing="@dimen/tw_resolver_pagemode_grid_spacing_vertical" android:stretchMode="columnWidth" android:numColumns="auto_fit" android:minHeight="@dimen/tw_resolver_pagemode_page_height" />
+</LinearLayout>

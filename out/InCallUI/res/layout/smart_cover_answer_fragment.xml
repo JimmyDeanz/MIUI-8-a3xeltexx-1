@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.incallui.view.SlidingUpPanelLayout android:gravity="bottom" android:id="@id/sliding_layout" android:background="@drawable/smart_cover_call_card_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" slide:panelHeight="@dimen/smart_cover_incoming_panel_height" slide:shadowHeight="0.0dip" slide:paralaxOffset="0.0dip" slide:fadeColor="@android:color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:slide="http://schemas.android.com/apk/res/com.android.incallui">
+    <LinearLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="vertical" android:background="@android:color/transparent" android:paddingTop="@dimen/smart_cover_incoming_panel_padding_top" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/single_call_info" layout="@layout/smart_cover_single_call_info" />
+        <ViewStub android:id="@id/answer_oper_layout" android:layout="@layout/smart_cover_answer_oper_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/single_call_info" />
+        <Button android:id="@id/end_button" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/smart_cover_end_btn_margin_bottom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.android.incallui.view.SlidingUpPanelLayout>

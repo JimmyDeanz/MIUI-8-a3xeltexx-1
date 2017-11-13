@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/content_view" android:background="@drawable/a1_cover_background" android:layout_width="fill_parent" android:layout_height="@dimen/a1_cover_total_height">
+        <TextView android:textSize="@dimen/a1_cover_name_text_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a1_cover_name_margin_top" android:scrollHorizontally="true" android:singleLine="true" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@dimen/a1_cover_name_margin_side" android:layout_marginEnd="@dimen/a1_cover_name_margin_side">
+            <requestFocus />
+        </TextView>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/call_info_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a1_cover_call_info_margin_top" android:layout_below="@id/name" android:layout_centerHorizontal="true" android:animateLayoutChanges="true">
+            <TextView android:id="@id/number" style="@style/a1_cover_call_info_style" />
+            <View android:id="@id/divider1" android:visibility="gone" style="@style/a1_cover_call_divider_style" />
+            <TextView android:id="@id/city" android:visibility="gone" style="@style/a1_cover_call_info_style" />
+            <View android:id="@id/divider2" android:visibility="gone" style="@style/a1_cover_call_divider_style" />
+            <TextView android:id="@id/time" android:visibility="gone" style="@style/a1_cover_call_info_style" />
+        </LinearLayout>
+        <com.android.incallui.view.HorizontalSlideLayout android:id="@id/slide_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a1_cover_slide_layout_margin_side" android:layout_marginRight="@dimen/a1_cover_slide_layout_margin_side" android:layout_marginBottom="@dimen/a1_cover_slide_layout_margin_bottom" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/reject_layout" android:layout_width="@dimen/a1_cover_slide_layout_height" android:layout_height="@dimen/a1_cover_slide_layout_height">
+                <ImageView android:id="@id/reject" android:background="@drawable/a1_bg_reject_circle" android:layout_width="@dimen/a1_cover_slide_layout_height" android:layout_height="@dimen/a1_cover_slide_layout_height" android:src="@drawable/a1_incoming_reject" android:scaleType="centerInside" />
+            </LinearLayout>
+            <ImageView android:id="@id/reject_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1_icon_reject_indicator" />
+            <ImageView android:id="@id/answer_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1_icon_answer_indicator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/answer_layout" android:layout_width="@dimen/a1_cover_slide_layout_height" android:layout_height="@dimen/a1_cover_slide_layout_height">
+                <ImageView android:id="@id/answer" android:background="@drawable/a1_bg_answer_circle" android:layout_width="@dimen/a1_cover_slide_layout_height" android:layout_height="@dimen/a1_cover_slide_layout_height" android:src="@drawable/a1_incoming_answer" android:scaleType="centerInside" />
+            </LinearLayout>
+        </com.android.incallui.view.HorizontalSlideLayout>
+        <ImageView android:id="@id/hung_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a1_cover_hangup_margin_bottom" android:src="@drawable/a1_bg_incall_hungup" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

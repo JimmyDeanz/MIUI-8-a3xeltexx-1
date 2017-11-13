@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/help_popup_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/help_drag_and_drop_content" android:padding="@dimen/multiwindow_help_content_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/help_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/multiwindow_help_content_margin" android:src="@drawable/multi_window_help_drag_drop_overlay" android:scaleType="center" android:tint="@null" />
+        <TextView android:textAppearance="?textAppearance" android:textSize="@dimen/multiwindow_help_text_size" android:textColor="@color/multiwindow_help_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/help_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/multiwindow_help_content_margin" android:text="@string/select_contents" android:textDirection="locale" />
+        <Button android:textSize="@dimen/multiwindow_help_ok_text_size" android:textColor="@color/multiwindow_help_ok_text_color" android:gravity="center" android:layout_gravity="end" android:id="@id/help_button_ok" android:background="@drawable/help_ok_button_background_ripple" android:layout_width="@dimen/multiwindow_help_ok_width" android:layout_height="@dimen/multiwindow_help_ok_height" android:text="@string/ok" android:includeFontPadding="false" android:textDirection="locale" />
+    </LinearLayout>
+</ScrollView>

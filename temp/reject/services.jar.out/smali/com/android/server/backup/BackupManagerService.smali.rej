@@ -1,0 +1,90 @@
+*** BackupManagerService.smali	2017-10-30 11:17:50.479808590 +0100
+--- BackupManagerService.smali	2017-10-30 11:08:24.511224851 +0100
+***************
+*** 10092,10102 ****
+  
+      const-string v3, "fullback"
+  
+      move-object/from16 v0, p0
+  
+      move/from16 v1, v16
+  
+!     invoke-virtual {v0, v1, v3}, Lcom/android/server/backup/BackupManagerService;->startConfirmationUi(ILjava/lang/String;)Z
+  
+      move-result v3
+  
+--- 10101,10115 ----
+  
+      const-string v3, "fullback"
+  
++     invoke-virtual/range {p1 .. p1}, Landroid/os/ParcelFileDescriptor;->getFd()I
++ 
++     move-result v4
++ 
+      move-object/from16 v0, p0
+  
+      move/from16 v1, v16
+  
+!     invoke-static {v0, v1, v3, v4}, Lcom/android/server/backup/BackupManagerServiceInjector;->startConfirmationUi(Lcom/android/server/backup/BackupManagerService;ILjava/lang/String;I)Z
+  
+      move-result v3
+  
+***************
+*** 10186,10197 ****
+  
+      invoke-virtual {v3, v4, v5, v6, v7}, Landroid/os/PowerManager;->userActivity(JII)V
+  
+-     move-object/from16 v0, p0
+- 
+-     move/from16 v1, v16
+- 
+-     invoke-virtual {v0, v1, v2}, Lcom/android/server/backup/BackupManagerService;->startConfirmationTimeout(ILcom/android/server/backup/BackupManagerService$FullParams;)V
+- 
+      const-string v3, "BackupManagerService"
+  
+      const-string v4, "Waiting for full backup completion..."
+--- 10199,10204 ----
+  
+      invoke-virtual {v3, v4, v5, v6, v7}, Landroid/os/PowerManager;->userActivity(JII)V
+  
+      const-string v3, "BackupManagerService"
+  
+      const-string v4, "Waiting for full backup completion..."
+***************
+*** 10400,10406 ****
+  
+      const-string v6, "fullrest"
+  
+!     invoke-virtual {p0, v5, v6}, Lcom/android/server/backup/BackupManagerService;->startConfirmationUi(ILjava/lang/String;)Z
+  
+      move-result v6
+  
+--- 10407,10417 ----
+  
+      const-string v6, "fullrest"
+  
+!     invoke-virtual {p1}, Landroid/os/ParcelFileDescriptor;->getFd()I
+! 
+!     move-result v7
+! 
+!     invoke-static {p0, v5, v6, v7}, Lcom/android/server/backup/BackupManagerServiceInjector;->startConfirmationUi(Lcom/android/server/backup/BackupManagerService;ILjava/lang/String;I)Z
+  
+      move-result v6
+  
+***************
+*** 10513,10520 ****
+  
+      invoke-virtual {v6, v8, v9, v7, v10}, Landroid/os/PowerManager;->userActivity(JII)V
+  
+-     invoke-virtual {p0, v5, v4}, Lcom/android/server/backup/BackupManagerService;->startConfirmationTimeout(ILcom/android/server/backup/BackupManagerService$FullParams;)V
+- 
+      const-string v6, "BackupManagerService"
+  
+      const-string v7, "Waiting for full restore completion..."
+--- 10524,10529 ----
+  
+      invoke-virtual {v6, v8, v9, v7, v10}, Landroid/os/PowerManager;->userActivity(JII)V
+  
+      const-string v6, "BackupManagerService"
+  
+      const-string v7, "Waiting for full restore completion..."

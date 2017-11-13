@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/iris_help_video_textureview" android:layout_width="fill_parent" android:layout_height="@dimen/iris_helper_video_videoview_height" />
+        <TextView android:textSize="@dimen/iris_helper_subject_textsize" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iris_helper_textview_left_margin" android:layout_marginTop="@dimen/iris_helper_textview_top_margin" android:layout_marginBottom="@dimen/iris_helper_textview_bottom_margin" android:text="@string/iris_helper_video_subject" android:fontFamily="sec-roboto-light" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:background="@color/iris_helper_bottom_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/iris_helper_bottom_bar_height" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="?android:attr/actionBarStyle">
+        <TextView android:textSize="@dimen/iris_helper_bottom_bar_textsize" android:textColor="@color/iris_helper_bottom_bar_textcolor" android:id="@id/iris_skipbtn_id" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/iris_helper_video_skip" android:layout_weight="1.0" android:fontFamily="sec-roboto-light" style="?android:attr/actionButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

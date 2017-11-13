@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_001" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_001" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_002" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_003" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_004" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_005" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_006" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_007" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_008" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_008" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_008" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_007" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_006" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_005" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_004" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_003" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_002" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_001" />
+    <item android:duration="18" android:drawable="@drawable/toolbox_delete_ic_body_focus_001" />
+</animation-list>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Nėra interneto jau %s minučių</item>
+        <item quantity="one">Nėra interneto jau %s minutę</item>
+        <item quantity="few">Nėra interneto jau %s minutes</item>
+        <item quantity="many">Jokio duomenų ryšio %s minutės</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefonas bus skubios atgalinio ryšio pagalbos režime %s minučių Veikiant šiuo režimu, negalima naudoti programų, naudojančių duomenų ryšį. Ar norite išeiti dabar?</item>
+        <item quantity="one">Telefonas bus skubios atgalinio ryšio pagalbos režime %s minutę Veikiant šiuo režimu, negalima naudoti programų, naudojančių duomenų ryšį. Ar norite išeiti dabar?</item>
+        <item quantity="few">Telefonas bus skubios atgalinio ryšio pagalbos režime %s minutes Veikiant šiuo režimu, negalima naudoti programų, naudojančių duomenų ryšį. Ar norite išeiti dabar?</item>
+        <item quantity="many">Telefonas veiks pagalbos tarnybos atskambinimo režimu %s minutės. Įgalinus šį režimą negalima naudoti jokių programų, kurioms reikalingas duomenų ryšys. Norite dabar išeiti iš šio režimo?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Pasirinktas veiksmas negalimas skubios atgalinių skambučių pagalbos režime. Telefonas šiame režime pasiliks dar %s minučių. Ar norite išeiti dabar?</item>
+        <item quantity="one">Pasirinktas veiksmas negalimas skubios atgalinių skambučių pagalbos režime. Telefonas šiame režime pasiliks dar %s minute. Ar norite išeiti dabar?</item>
+        <item quantity="few">Pasirinktas veiksmas negalimas skubios atgalinių skambučių pagalbos režime. Telefonas šiame režime pasiliks dar %s minutes. Ar norite išeiti dabar?</item>
+        <item quantity="many">Įgalinus pagalbos tarnybos atskambinimo režimą pasirinkto veiksmo atlikti negalima. Telefonas veiks pagalbos tarnybos atskambinimo režimu %s minutės. Norite dabar išeiti iš šio režimo?</item>
+    </plurals>
+</resources>

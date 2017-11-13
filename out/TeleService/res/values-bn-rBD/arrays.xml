@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>গ্লোবাল</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="preferred_network_mode_values_world_mode">
+        <item>১০</item>
+        <item>৮</item>
+        <item>৯</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>নেটওয়ার্ক ডিফল্ট</item>
+        <item>নম্বর লুকান</item>
+        <item>নম্বর দেখান</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA, LTE, CDMA, EvDo GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM/WCDMA, CDMA এবং EvDo</item>
+        <item>TD-SCDMA, GSM/WCDMA এবং LTE</item>
+        <item>TD-SCDMA, WCDMA এবং LTE</item>
+        <item>TD-SCDMA, GSM/WCDMA</item>
+        <item>TD-SCDMA, GSM এবং LTE</item>
+        <item>TD-SCDMA এবং GSM</item>
+        <item>TD-SCDMA এবং LTE</item>
+        <item>TD-SCDMA এবং WCDMA</item>
+        <item>শুধুমাত্র টিডি-এসসিডিএমএ</item>
+        <item>LTE/WCDMA</item>
+        <item>শুধু LTE</item>
+        <item>LTE/GSM/CDMA auto (PRL)</item>
+        <item>LTE/GSM auto (PRL)</item>
+        <item>LTE/CDMA auto (PRL)</item>
+        <item>GSM/CDMA auto (PRL)</item>
+        <item>শুধুমাত্র ইভডো</item>
+        <item>শুধুমাত্র CDMA</item>
+        <item>CDMA auto (PRL)</item>
+        <item>GSM auto (PRL)</item>
+        <item>শুধুমাত্র ডাব্লুসিডিএমএ</item>
+        <item>শুধুমাত্র জিএসএম</item>
+        <item>WCDMA পছন্দ</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>ইংরেজি</item>
+        <item>ফরাসী</item>
+        <item>স্পেনীয়</item>
+        <item>জাপানি</item>
+        <item>কোরিও</item>
+        <item>চিনা</item>
+        <item>হিব্রু</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>১</item>
+        <item>২</item>
+        <item>৩</item>
+        <item>৪</item>
+        <item>৫</item>
+        <item>৬</item>
+        <item>৭</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>শুধুমাত্র হোম</item>
+        <item>স্বয়ংক্রিয়</item>
+    </string-array>
+    <string-array name="cdma_subscription_choices">
+        <item>আরইউআইএম/সিম</item>
+        <item>এনভি</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>০</item>
+        <item>১</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY বন্ধ</item>
+        <item>TTY পূর্ণ</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>স্বাভাবিক</item>
+        <item>দীর্ঘ</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>এখনই নয়</item>
+        <item>রোমিং কল বন্ধ করা হচ্ছে</item>
+        <item>আন্তর্জাতিক কল রোমিং</item>
+        <item>আউটগোয়িং কল বন্ধ করা হচ্ছে</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_values">
+        <item>-1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>বন্ধ</item>
+        <item>রোমিং</item>
+        <item>সকল</item>
+    </string-array>
+    <string-array name="call_barring_incoming_values">
+        <item>-2</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+</resources>

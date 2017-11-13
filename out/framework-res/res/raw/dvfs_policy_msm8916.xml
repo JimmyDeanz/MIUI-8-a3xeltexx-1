@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE DvfsHintList [
+<!ELEMENT DvfsHintList (Hint?,TspHint+)>
+<!ELEMENT Hint EMPTY>
+<!ELEMENT TspHint EMPTY>
+<!ATTLIST TspHint
+          scenario_name CDATA #REQUIRED
+          level CDATA #REQUIRED
+          head CDATA #IMPLIED
+          tail CDATA #IMPLIED>
+]>
+
+<DvfsHintList>
+    <TspHint scenario_name="Default"            level="2" head="200 1190400 0"    tail="300 998400 0" />
+    <TspHint scenario_name="SipDefault"         level="1" head="200 1190400 0"    tail="0 0 0" />
+    <Hint name="BADGE_UPDATE" timeout="2000">
+        <Control type="cpu_min" value="1190400"/>
+        <Control type="core_num_min" value="4"/>
+    </Hint>
+
+    <Hint name="RECENT_LIST" timeout="2000">
+        <Control type="gpu_min" value="max"/>
+    </Hint>
+</DvfsHintList>

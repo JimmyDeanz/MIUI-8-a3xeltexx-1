@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:circle="http://schemas.android.com/apk/res/com.android.incallui">
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="top" android:orientation="horizontal" android:id="@id/incoming_operate_layout" android:paddingBottom="@dimen/smart_cover_incoming_operate_btn_padding_bottom" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/smart_cover_incoming_circle_button_height">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <com.android.incallui.view.ArrowImageView android:layout_gravity="bottom|center" android:id="@id/incoming_reject_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smart_cover_incoming_arrow" />
+            <com.android.incallui.view.CircleImageView android:id="@id/incoming_reject" android:focusable="false" android:focusableInTouchMode="true" android:visibility="invisible" android:clickable="false" android:layout_width="@dimen/smart_cover_incoming_out_radius" android:layout_height="@dimen/smart_cover_incoming_out_radius" android:src="@drawable/smart_cover_incoming_reject" circle:radiusNormalColor="@color/incoming_reject_color_n" circle:radiusPressColor="@color/incoming_reject_color_p" circle:imageAnimatorHeight="@dimen/incoming_circle_reject_height" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/smart_cover_incoming_circle_img_margin_right">
+            <com.android.incallui.view.ArrowImageView android:layout_gravity="bottom|center" android:id="@id/incoming_answer_arrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smart_cover_incoming_arrow" />
+            <com.android.incallui.view.CircleImageView android:layout_gravity="bottom" android:id="@id/incoming_answer" android:focusable="false" android:focusableInTouchMode="true" android:visibility="invisible" android:clickable="false" android:layout_width="@dimen/smart_cover_incoming_out_radius" android:layout_height="@dimen/smart_cover_incoming_out_radius" android:src="@drawable/smart_cover_incoming_answer" circle:radiusNormalColor="@color/incoming_ring_color_n" circle:radiusPressColor="@color/incoming_ring_color_p" circle:imageAnimatorHeight="@dimen/incoming_circle_answer_height" circle:radiusStyle="fill" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

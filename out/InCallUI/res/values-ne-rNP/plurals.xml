@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">%d कलहरू रेकर्ड भयो।</item>
+        <item quantity="one">1 कल रेकर्ड गरियो।</item>
+    </plurals>
+</resources>

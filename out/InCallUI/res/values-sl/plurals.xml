@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">%d klicev posneto.</item>
+        <item quantity="one">1 klic posnet.</item>
+        <item quantity="two">%d klica posneta.</item>
+        <item quantity="few">%d klicev posneto.</item>
+    </plurals>
+</resources>

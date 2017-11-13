@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="call_recording_notification_complete">
+        <item quantity="other">Nahrané hovory: %d</item>
+        <item quantity="one">1 nahraný hovor</item>
+        <item quantity="few">Nahrané hovory: %d</item>
+    </plurals>
+</resources>

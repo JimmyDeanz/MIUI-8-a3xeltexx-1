@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s ਮਿੰਟਾਂ ਲਈ ਕੋਈ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ</item>
+        <item quantity="one">%s ਮਿੰਟ ਲਈ ਕੋਈ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">ਤੁਹਾਡਾ ਫ਼ੋਨ ਐਮਰਜੰਸੀ ਕਾਲਬੈਕ ਮੋਡ ਵਿੱਚ %s ਮਿੰਟਾਂ ਲਈ ਉਪਲਬਧ ਹੋਵੇਗਾ. ਇਸ ਮੋਡ ਵਿੱਚ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੀਆਂ ਐਪਸ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ. ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਬਾਹਰ ਆਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</item>
+        <item quantity="one">ਤੁਹਾਡਾ ਫ਼ੋਨ ਐਮਰਜੰਸੀ ਕਾਲਬੈਕ ਮੋਡ ਵਿੱਚ %s ਮਿੰਟ ਲਈ ਉਪਲਬਧ ਹੋਵੇਗਾ. ਇਸ ਮੋਡ ਵਿੱਚ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੀਆਂ ਐਪਸ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ. ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਬਾਹਰ ਆਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">ਚੁਣੀ ਗਈ ਕਾਰਵਾਈ ਐਮਰਜੰਸੀ ਕਾਲਬੈਕ ਮੋਡ ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹੈ. ਤੁਹਾਡਾ ਫ਼ੋਨ %s ਮਿੰਟਾਂ ਲਈ ਇਸ ਮੋਡ ਵਿੱਚ ਹੋਵੇਗਾ. ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਬਾਹਰ ਆਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</item>
+        <item quantity="one">ਚੁਣੀ ਗਈ ਕਾਰਵਾਈ ਐਮਰਜੰਸੀ ਕਾਲਬੈਕ ਮੋਡ ਵਿੱਚ ਉਪਲਬਧ ਨਹੀਂ ਹੈ. ਤੁਹਾਡਾ ਫ਼ੋਨ %s ਮਿੰਟ ਲਈ ਇਸ ਮੋਡ ਵਿੱਚ ਹੋਵੇਗਾ. ਕੀ ਤੁਸੀਂ ਹੁਣੇ ਬਾਹਰ ਆਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</item>
+    </plurals>
+</resources>

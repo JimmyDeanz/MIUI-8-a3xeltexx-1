@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:circle="http://schemas.android.com/apk/res/com.android.incallui">
+    <FrameLayout android:id="@id/incoming_operate_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:textSize="@dimen/video_call_incoming_answer_voice_text_size" android:textColor="@color/video_call_incoming_answer_voice_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/incoming_answer_voice_btn" android:background="@drawable/incoming_answer_voice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incoming_video_call_answer_margin_top" android:text="@string/incoming_answer_voice_text" />
+        <LinearLayout android:gravity="bottom|center" android:layout_gravity="top" android:orientation="horizontal" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/incoming_circle_button_height">
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <com.android.incallui.view.ArrowImageView android:id="@id/incoming_reject_arrow" android:visibility="gone" style="@style/Incoming.ArrowImageView" />
+                <com.android.incallui.view.CircleImageView android:id="@id/incoming_reject" android:visibility="invisible" android:layout_marginBottom="@dimen/incoming_operate_btn_margin_bottom" android:src="@drawable/incoming_reject" android:contentDescription="@string/description_image_button_reject" circle:radiusNormalColor="@color/incoming_reject_color_n" circle:radiusPressColor="@color/incoming_reject_color_p" circle:imageAnimatorHeight="@dimen/incoming_circle_reject_height" circle:radiusStyle="fill" style="@style/Incoming.CircleImageView" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/incoming_circle_img_margin_right">
+                <com.android.incallui.view.ArrowImageView android:id="@id/incoming_answer_arrow" android:visibility="gone" style="@style/Incoming.ArrowImageView" />
+                <com.android.incallui.view.CircleImageView android:id="@id/incoming_answer" android:visibility="invisible" android:layout_marginBottom="@dimen/incoming_operate_btn_margin_bottom" android:src="@drawable/incoming_answer" android:contentDescription="@string/description_image_button_answer" circle:radiusNormalColor="@color/incoming_ring_color_n" circle:radiusPressColor="@color/incoming_ring_color_p" circle:imageAnimatorHeight="@dimen/incoming_circle_answer_height" circle:radiusStyle="fill" style="@style/Incoming.CircleImageView" />
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/incoming_message_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/incoming_circle_img_margin_right">
+                <com.android.incallui.view.ArrowImageView android:id="@id/incoming_message_arrow" android:visibility="gone" style="@style/Incoming.ArrowImageView" />
+                <com.android.incallui.view.CircleImageView android:id="@id/incoming_message" android:visibility="invisible" android:layout_marginBottom="@dimen/incoming_operate_btn_margin_bottom" android:src="@drawable/incoming_message" android:contentDescription="@string/description_image_button_message_enter" circle:radiusNormalColor="@color/incoming_message_color_n" circle:radiusPressColor="@color/incoming_message_color_p" circle:imageAnimatorHeight="@dimen/incoming_circle_message_height" circle:radiusStyle="fill" style="@style/Incoming.CircleImageView" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/response_sms_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/message_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fastScrollEnabled="true" android:overScrollMode="never" />
+        <ImageView android:id="@id/exit_message_response" style="@style/Incoming.ResponseSmsImageView" />
+    </LinearLayout>
+    <include android:id="@id/fraud_call_answer_dialog" layout="@layout/fraud_call_answer_dialog" />
+</FrameLayout>

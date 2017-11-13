@@ -1,0 +1,42 @@
+*** UserManagerService.smali	2017-10-30 11:17:39.763868371 +0100
+--- UserManagerService.smali	2017-10-30 11:08:13.219300765 +0100
+***************
+*** 736,742 ****
+  .end method
+  
+  .method private createUserInternal(Ljava/lang/String;II)Landroid/content/pm/UserInfo;
+!     .locals 30
+      .param p1, "name"    # Ljava/lang/String;
+      .param p2, "flags"    # I
+      .param p3, "parentId"    # I
+--- 736,742 ----
+  .end method
+  
+  .method private createUserInternal(Ljava/lang/String;II)Landroid/content/pm/UserInfo;
+!     .locals 37
+      .param p1, "name"    # Ljava/lang/String;
+      .param p2, "flags"    # I
+      .param p3, "parentId"    # I
+***************
+*** 969,975 ****
+  
+      :cond_7
+      :try_start_a
+!     invoke-direct/range {p0 .. p0}, Lcom/android/server/pm/UserManagerService;->getNextAvailableIdLocked()I
+  
+      move-result v19
+  
+--- 969,981 ----
+  
+      :cond_7
+      :try_start_a
+!     move-object/from16 v0, p0
+! 
+!     move/from16 v1, p2
+! 
+!     const/4 v2, 0x0
+! 
+!     invoke-direct {v0, v1, v2}, Lcom/android/server/pm/UserManagerService;->checkAndGetNewUserId(IZ)I
+  
+      move-result v19
+  

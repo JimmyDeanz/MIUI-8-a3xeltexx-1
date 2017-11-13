@@ -1,0 +1,19 @@
+*** ./smali/android/app/backup/BackupAgent.smali	2017-10-30 11:16:31.192254060 +0100
+--- /home/mcfy/bin/device/temp/new_smali/framework.jar.out/./smali/android/app/backup/BackupAgent.smali	2017-10-30 11:07:17.171684128 +0100
+***************
+*** 1113,1119 ****
+  
+      iget v1, v0, Landroid/system/StructStat;->st_mode:I
+  
+!     invoke-static {v1}, Landroid/system/OsConstants;->S_ISLNK(I)Z
+  
+      move-result v1
+  
+--- 1113,1119 ----
+  
+      iget v1, v0, Landroid/system/StructStat;->st_mode:I
+  
+!     invoke-static {v1}, Landroid/app/backup/BackupAgentInjector;->shouldSkip(I)Z
+  
+      move-result v1
+  
